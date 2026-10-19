@@ -1,0 +1,1059 @@
+<!DOCTYPE html><html lang="en-US"><head><title>CSS საფუძვლები</title><meta property="og:title" content="CSS საფუძვლები"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta property="og:type" content="website"><meta name="twitter:card" content="summary"><style>@media screen{body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button,body[data-bespoke-view=overview] button.bespoke-marp-overview-close,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{appearance:none;background-color:initial;border:0;color:inherit;cursor:pointer;font-size:inherit;opacity:.8;outline:none;padding:0;transition:opacity .2s linear;-webkit-tap-highlight-color:transparent}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:disabled,body[data-bespoke-view=overview] button.bespoke-marp-overview-close:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:disabled,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:disabled{cursor:not-allowed;opacity:.15!important}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover,body[data-bespoke-view=overview] button.bespoke-marp-overview-close:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover{opacity:1}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:active,body[data-bespoke-view=overview] button.bespoke-marp-overview-close:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:active,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:active{opacity:.6}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button:hover:not(:disabled),body[data-bespoke-view=overview] button.bespoke-marp-overview-close:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button:hover:not(:disabled),body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button:hover:not(:disabled){transition:none}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-prev{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNNjggOTAgMjggNTBsNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=""] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=next] .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button.bespoke-marp-presenter-info-page-next{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJtMzIgOTAgNDAtNDAtNDAtNDAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen]{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgeD0iMTAiIHk9IjIwIiBjbGFzcz0iYSIgcng9IjUuNjciLz48cGF0aCBkPSJNNDAgNzBIMjBWNTBtMjAgMEwyMCA3MG00MC00MGgyMHYyMG0tMjAgMCAyMC0yMCIgY2xhc3M9ImEiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button.exit[data-bespoke-marp-osc=fullscreen]{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4fTwvc3R5bGU+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MCIgaGVpZ2h0PSI2MCIgeD0iMTAiIHk9IjIwIiBjbGFzcz0iYSIgcng9IjUuNjciLz48cGF0aCBkPSJNMjAgNTBoMjB2MjBtLTIwIDAgMjAtMjBtNDAgMEg2MFYzMG0yMCAwTDYwIDUwIiBjbGFzcz0iYSIvPjwvc3ZnPg==")}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter]{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNODcuOCA0Ny41Qzg5IDUwIDg3LjcgNTIgODUgNTJIMzVhOC43IDguNyAwIDAgMS03LjItNC41bC0xNS42LTMxQzExIDE0IDEyLjIgMTIgMTUgMTJoNTBhOC44IDguOCAwIDAgMSA3LjIgNC41ek02MCA1MnYzNm0tMTAgMGgyME00NSA0MmgyMCIvPjwvc3ZnPg==") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=overview] button.bespoke-marp-overview-close,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-bigger{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMTIgNTBoODBNNTIgOTBWMTAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button.bespoke-marp-presenter-note-smaller{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMTIgNTBoODAiLz48L3N2Zz4=") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=overview]{background:#0000 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48c3R5bGU+LmF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6NXB4O3J4OjVweDtyeTo1cHg7d2lkdGg6MjVweDtoZWlnaHQ6MjVweH08L3N0eWxlPjwvZGVmcz48cmVjdCB4PSIyMCIgeT0iMjAiIGNsYXNzPSJhIi8+PHJlY3QgeD0iNTUiIHk9IjIwIiBjbGFzcz0iYSIvPjxyZWN0IHg9IjIwIiB5PSI1NSIgY2xhc3M9ImEiLz48cmVjdCB4PSI1NSIgeT0iNTUiIGNsYXNzPSJhIi8+PC9zdmc+") no-repeat 50%;background-size:contain;overflow:hidden;text-indent:100%;white-space:nowrap}}@keyframes __bespoke_marp_transition_reduced_outgoing__{0%{opacity:1}to{opacity:0}}@keyframes __bespoke_marp_transition_reduced_incoming__{0%{mix-blend-mode:plus-lighter;opacity:0}to{mix-blend-mode:plus-lighter;opacity:1}}.bespoke-marp-note,.bespoke-marp-osc,.bespoke-progress-parent{display:none;transition:none}@media screen{::view-transition-group(*){animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-timing-function:ease}::view-transition-new(*),::view-transition-old(*){animation-delay:0s;animation-direction:var(--marp-bespoke-transition-animation-direction,normal);animation-duration:var(--marp-bespoke-transition-animation-duration,.5s);animation-fill-mode:both;animation-name:var(--marp-bespoke-transition-animation-name,var(--marp-bespoke-transition-animation-name-fallback,__bespoke_marp_transition_no_animation__));mix-blend-mode:normal}::view-transition-old(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_outgoing__;animation-timing-function:ease}::view-transition-new(*){--marp-bespoke-transition-animation-name-fallback:__bespoke_marp_transition_reduced_incoming__;animation-timing-function:ease}::view-transition-new(root),::view-transition-old(root){animation-timing-function:linear}::view-transition-new(__bespoke_marp_transition_osc__),::view-transition-old(__bespoke_marp_transition_osc__){animation-duration:0s!important;animation-name:__bespoke_marp_transition_osc__!important}::view-transition-new(__bespoke_marp_transition_osc__){opacity:0!important}.bespoke-marp-transition-warming-up::view-transition-group(*),.bespoke-marp-transition-warming-up::view-transition-new(*),.bespoke-marp-transition-warming-up::view-transition-old(*){animation-play-state:paused!important}body,html{height:100%;margin:0}body{background:#000;overflow:hidden}svg.bespoke-marp-slide{content-visibility:hidden;interactivity:inert;opacity:0;pointer-events:none;z-index:-1}svg.bespoke-marp-slide:not(.bespoke-marp-active) *{view-transition-name:none!important}svg.bespoke-marp-slide.bespoke-marp-active{content-visibility:visible;interactivity:auto;opacity:1;pointer-events:auto;z-index:0}svg.bespoke-marp-slide.bespoke-marp-active.bespoke-marp-active-ready *{animation-name:__bespoke_marp__!important}@supports not (content-visibility:hidden){svg.bespoke-marp-slide[data-bespoke-marp-load=hideable]{display:none}svg.bespoke-marp-slide[data-bespoke-marp-load=hideable].bespoke-marp-active{display:block}}}@media screen and (prefers-reduced-motion:reduce){svg.bespoke-marp-slide *{view-transition-name:none!important}}@media screen{[data-bespoke-marp-fragment=inactive]{visibility:hidden}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent{inset:0;position:absolute}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc{background:#000000a6;border-radius:7px;bottom:50px;color:#fff;contain:paint;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;left:50%;line-height:0;opacity:1;padding:12px;position:absolute;touch-action:manipulation;transform:translateX(-50%);transition:opacity .2s linear;-webkit-user-select:none;user-select:none;view-transition-name:__bespoke_marp_transition_osc__;white-space:nowrap;will-change:transform;z-index:1}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>:where(*){margin-left:6px}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>:where(*):where(:first-child){margin-left:0}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>span{opacity:.8}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>span[data-bespoke-marp-osc=page]{display:inline-block;min-width:140px;text-align:center}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=fullscreen],:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=next],:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=overview],:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=presenter],:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent>.bespoke-marp-osc>button[data-bespoke-marp-osc=prev]{height:32px;line-height:32px;width:32px}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent.bespoke-marp-inactive{cursor:none}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) .bespoke-marp-parent.bespoke-marp-inactive>.bespoke-marp-osc{opacity:0;pointer-events:none}:is(body[data-bespoke-view=""],body[data-bespoke-view=next]) svg.bespoke-marp-slide{height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent{background:#222;display:flex;height:5px;width:100%}body[data-bespoke-view=""] .bespoke-progress-parent+:where(.bespoke-marp-parent){top:5px}body[data-bespoke-view=""] .bespoke-progress-parent .bespoke-progress-bar{background:#0288d1;flex:0 0 0;transition:flex-basis .2s cubic-bezier(0,1,1,1)}body[data-bespoke-view=next]{background:#0000}body[data-bespoke-view=presenter]{background:#161616}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container{display:grid;font-family:Helvetica,Arial,sans-serif;grid-template:"current dragbar next" minmax(140px,1fr) "current dragbar note" 2fr "info    dragbar note" 3em;grid-template-columns:minmax(3px,var(--bespoke-marp-presenter-split-ratio,66%)) 0 minmax(3px,1fr);height:100%;left:0;position:absolute;top:0;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container :where(.bespoke-marp-parent){grid-area:current;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container :where(.bespoke-marp-parent) :where(svg.bespoke-marp-slide){height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container :where(.bespoke-marp-parent) :where(svg.bespoke-marp-slide).bespoke-marp-active{filter:drop-shadow(0 3px 10px rgba(0,0,0,.5))}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container{background:#0288d1;cursor:col-resize;grid-area:dragbar;margin-left:-3px;opacity:0;position:relative;transition:opacity .4s linear .1s;width:6px;z-index:10}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container:hover{opacity:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-dragbar-container.active{opacity:1;transition-delay:0s}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container{background:#222;cursor:pointer;display:none;grid-area:next;overflow:hidden;position:relative}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-next-container iframe.bespoke-marp-presenter-next{background:#0000;border:0;display:block;filter:drop-shadow(0 3px 10px rgba(0,0,0,.5));height:calc(100% - 40px);left:20px;pointer-events:none;position:absolute;interactivity:inert;top:20px;-webkit-user-select:none;user-select:none;width:calc(100% - 40px)}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container{background:#222;color:#eee;grid-area:note;position:relative;z-index:1}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper{display:block;inset:0;position:absolute}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons{background:#000000a6;border-radius:4px;bottom:0;display:flex;gap:4px;margin:12px;opacity:0;padding:6px;pointer-events:none;position:absolute;right:0;transition:opacity .2s linear}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-buttons:focus-within,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-presenter-note-wrapper:focus-within+.bespoke-marp-presenter-note-buttons,body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container:hover .bespoke-marp-presenter-note-buttons{opacity:1;pointer-events:auto}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note{box-sizing:border-box;font-size:calc(1.1em*var(--bespoke-marp-note-font-scale, 1));height:calc(100% - 40px);margin:20px;overflow:auto;padding-right:3px;white-space:pre-wrap;width:calc(100% - 40px);word-wrap:break-word;scrollbar-color:#eeeeee80 #0000;scrollbar-width:thin}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar{width:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-track{background:#0000}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note::-webkit-scrollbar-thumb{background:#eeeeee80;border-radius:6px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note:empty{pointer-events:none}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note.active{display:block}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:first-child{margin-top:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-note-container .bespoke-marp-note p:last-child{margin-bottom:0}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container{align-items:center;box-sizing:border-box;color:#eee;display:flex;flex-wrap:nowrap;grid-area:info;justify-content:center;overflow:hidden;padding:0 10px}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container :is(.bespoke-marp-presenter-info-page-area,.bespoke-marp-presenter-info-time,.bespoke-marp-presenter-info-timer){box-sizing:border-box;display:block;padding:0 10px;white-space:nowrap;width:100%}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container button{height:1.5em;line-height:1.5em;width:1.5em}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area{order:2;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-page-area .bespoke-marp-presenter-info-page{display:inline-block;min-width:120px;text-align:center}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-time{color:#999;order:1;text-align:left}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer{color:#999;order:3;text-align:right}body[data-bespoke-view=presenter] .bespoke-marp-presenter-container .bespoke-marp-presenter-info-container .bespoke-marp-presenter-info-timer:hover{cursor:pointer}body[data-bespoke-view=overview]{background:#161616;overflow:auto}body[data-bespoke-view=overview] [data-bespoke-marp-fragment=inactive]{visibility:visible}body[data-bespoke-view=overview] .bespoke-marp-overview-header{backdrop-filter:blur(4px);background:#222222d9;box-shadow:0 3px 10px #00000080;box-sizing:border-box;display:flex;height:48px;inset:0 0 auto;justify-content:flex-end;padding:10px;position:fixed;z-index:1}body[data-bespoke-view=overview] button.bespoke-marp-overview-close{height:28px;line-height:28px;transform:rotate(45deg);width:28px}body[data-bespoke-view=overview] .bespoke-marp-parent{display:grid;gap:40px;grid-template-columns:repeat(auto-fit,minmax(0,240px));justify-content:space-around;padding:30px}body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide{--bov-selected:#0000;--bov-focus:#161616;--bov-focus-outline:#0000;background-image:conic-gradient(#161616 0 0),conic-gradient(var(--bov-focus) 0 0),conic-gradient(var(--bov-focus-outline) 0 0),conic-gradient(var(--bov-selected) 0 0);background-position:5px 5px,3px 3px,2px 2px,0 0;background-repeat:no-repeat;background-size:calc(100% - 10px) calc(100% - 10px),calc(100% - 6px) calc(100% - 6px),calc(100% - 4px) calc(100% - 4px),100% 100%;content-visibility:visible;cursor:pointer;filter:drop-shadow(0 3px 10px rgba(0,0,0,.5));margin:-6px;padding:6px;interactivity:auto;opacity:1;outline:0;pointer-events:auto;scroll-margin-block:30px;width:100%;z-index:0}body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide *,body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide.bespoke-marp-active *{pointer-events:none;interactivity:inert}body[data-bespoke-view=overview] .bespoke-marp-parent :is(svg.bespoke-marp-slide:active,svg.bespoke-marp-slide:focus-visible,svg.bespoke-marp-slide:hover){--bov-focus-outline:#161616}body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide:focus-visible,body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide:hover{--bov-focus:#999}body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide:active{--bov-focus:#eee}body[data-bespoke-view=overview] .bespoke-marp-parent svg.bespoke-marp-slide.bespoke-marp-active{--bov-selected:#0288d1}body[data-bespoke-view=overview]:has(.bespoke-marp-overview-header) .bespoke-marp-parent{padding-top:78px}body[data-bespoke-view=overview]:has(.bespoke-marp-overview-header) .bespoke-marp-parent svg.bespoke-marp-slide{scroll-margin-top:78px}.bespoke-marp-overview{background:#000000a6;inset:0;opacity:0;pointer-events:none;position:fixed;transition:opacity .1s ease;z-index:10}.bespoke-marp-overview iframe{background:#222;border:0;display:block;height:100%;left:0;position:absolute;top:0;width:100%}.bespoke-marp-overview[data-open="1"]{opacity:1;pointer-events:auto}}@media print{.bespoke-marp-overview,.bespoke-marp-presenter-info-container,.bespoke-marp-presenter-next-container,.bespoke-marp-presenter-note-container{display:none}}</style><style>@charset "UTF-8";@import "https://fonts.bunny.net/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap";div#\:\$p > svg > foreignObject > section{width:1280px;height:720px;box-sizing:border-box;overflow:hidden;position:relative;scroll-snap-align:center center;-webkit-text-size-adjust:100%;text-size-adjust:100%}div#\:\$p > svg > foreignObject > section::after{bottom:0;content:attr(data-marpit-pagination);padding:inherit;pointer-events:none;position:absolute;right:0}div#\:\$p > svg > foreignObject > section:not([data-marpit-pagination])::after{display:none}div#\:\$p > svg > foreignObject > section :where(:is(h1, marp-h1)){font-size:2em;margin-block:0.67em}div#\:\$p > svg > foreignObject > section section:where(:is(h1, marp-h1)){--marpit-root-font-size: 2em}div#\:\$p > svg > foreignObject > section video::-webkit-media-controls{will-change:transform}@page {size:1280px 720px;margin:0}@media print{html, body{background-color:#fff;margin:0;page-break-inside:avoid;break-inside:avoid-page}div#\:\$p > svg > foreignObject > section{page-break-before:always;break-before:page}div#\:\$p > svg > foreignObject > section, div#\:\$p > svg > foreignObject > section *{-webkit-print-color-adjust:exact!important;animation-delay:0s!important;animation-duration:0s!important;color-adjust:exact!important;print-color-adjust:exact!important;transition:none!important}div#\:\$p > svg[data-marpit-svg]{display:block;height:100vh;width:100vw}}div#\:\$p > svg > foreignObject > :where(section){container-type:size}div#\:\$p > svg > foreignObject > section img[data-marp-twemoji]{background:transparent;height:1em;margin:0 .05em 0 .1em;vertical-align:-.1em;width:1em}/*!
+ * Marp / Marpit Gaia theme.
+ *
+ * @theme gaia
+ * @author Yuki Hattori
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */div#\:\$p > svg > foreignObject > section :is(pre, marp-pre) code.hljs{display:block;overflow-x:auto;padding:1em}div#\:\$p > svg > foreignObject > section code.hljs{padding:3px 5px}div#\:\$p > svg > foreignObject > section .hljs{background:#000;color:#f8f8f8}div#\:\$p > svg > foreignObject > section .hljs-comment,div#\:\$p > svg > foreignObject > section .hljs-quote{color:#aeaeae;font-style:italic}div#\:\$p > svg > foreignObject > section .hljs-keyword,div#\:\$p > svg > foreignObject > section .hljs-selector-tag,div#\:\$p > svg > foreignObject > section .hljs-type{color:#e28964}div#\:\$p > svg > foreignObject > section .hljs-string{color:#65b042}div#\:\$p > svg > foreignObject > section .hljs-subst{color:#daefa3}div#\:\$p > svg > foreignObject > section .hljs-link,div#\:\$p > svg > foreignObject > section .hljs-regexp{color:#e9c062}div#\:\$p > svg > foreignObject > section .hljs-name,div#\:\$p > svg > foreignObject > section .hljs-section,div#\:\$p > svg > foreignObject > section .hljs-tag,div#\:\$p > svg > foreignObject > section .hljs-title{color:#89bdff}div#\:\$p > svg > foreignObject > section .hljs-class .hljs-title,div#\:\$p > svg > foreignObject > section .hljs-doctag,div#\:\$p > svg > foreignObject > section .hljs-title.class_{text-decoration:underline}div#\:\$p > svg > foreignObject > section .hljs-bullet,div#\:\$p > svg > foreignObject > section .hljs-number,div#\:\$p > svg > foreignObject > section .hljs-symbol{color:#3387cc}div#\:\$p > svg > foreignObject > section .hljs-params,div#\:\$p > svg > foreignObject > section .hljs-template-variable,div#\:\$p > svg > foreignObject > section .hljs-variable{color:#3e87e3}div#\:\$p > svg > foreignObject > section .hljs-attribute{color:#cda869}div#\:\$p > svg > foreignObject > section .hljs-meta{color:#8996a8}div#\:\$p > svg > foreignObject > section .hljs-formula{background-color:#0e2231;color:#f8f8f8;font-style:italic}div#\:\$p > svg > foreignObject > section .hljs-addition{background-color:#253b22;color:#f8f8f8}div#\:\$p > svg > foreignObject > section .hljs-deletion{background-color:#420e09;color:#f8f8f8}div#\:\$p > svg > foreignObject > section .hljs-selector-class{color:#9b703f}div#\:\$p > svg > foreignObject > section .hljs-selector-id{color:#8b98ab}div#\:\$p > svg > foreignObject > section .hljs-emphasis{font-style:italic}div#\:\$p > svg > foreignObject > section .hljs-strong{font-weight:700}div#\:\$p > svg > foreignObject > section :is(h1, marp-h1),div#\:\$p > svg > foreignObject > section :is(h2, marp-h2),div#\:\$p > svg > foreignObject > section :is(h3, marp-h3),div#\:\$p > svg > foreignObject > section :is(h4, marp-h4),div#\:\$p > svg > foreignObject > section :is(h5, marp-h5),div#\:\$p > svg > foreignObject > section :is(h6, marp-h6){margin:.5em 0 0}div#\:\$p > svg > foreignObject > section :is(h1, marp-h1) strong,div#\:\$p > svg > foreignObject > section :is(h2, marp-h2) strong,div#\:\$p > svg > foreignObject > section :is(h3, marp-h3) strong,div#\:\$p > svg > foreignObject > section :is(h4, marp-h4) strong,div#\:\$p > svg > foreignObject > section :is(h5, marp-h5) strong,div#\:\$p > svg > foreignObject > section :is(h6, marp-h6) strong{font-weight:inherit}div#\:\$p > svg > foreignObject > section :is(h1, marp-h1)::part(auto-scaling),div#\:\$p > svg > foreignObject > section :is(h2, marp-h2)::part(auto-scaling),div#\:\$p > svg > foreignObject > section :is(h3, marp-h3)::part(auto-scaling),div#\:\$p > svg > foreignObject > section :is(h4, marp-h4)::part(auto-scaling),div#\:\$p > svg > foreignObject > section :is(h5, marp-h5)::part(auto-scaling),div#\:\$p > svg > foreignObject > section :is(h6, marp-h6)::part(auto-scaling){max-height:580px}div#\:\$p > svg > foreignObject > section :is(h1, marp-h1){font-size:1.8em}div#\:\$p > svg > foreignObject > section :is(h2, marp-h2){font-size:1.5em}div#\:\$p > svg > foreignObject > section :is(h3, marp-h3){font-size:1.3em}div#\:\$p > svg > foreignObject > section :is(h4, marp-h4){font-size:1.1em}div#\:\$p > svg > foreignObject > section :is(h5, marp-h5){font-size:1em}div#\:\$p > svg > foreignObject > section :is(h6, marp-h6){font-size:.9em}div#\:\$p > svg > foreignObject > section blockquote,div#\:\$p > svg > foreignObject > section p{margin:1em 0 0}div#\:\$p > svg > foreignObject > section ol>li,div#\:\$p > svg > foreignObject > section ul>li{margin:.3em 0 0}div#\:\$p > svg > foreignObject > section ol>li>p,div#\:\$p > svg > foreignObject > section ul>li>p{margin:.6em 0 0}div#\:\$p > svg > foreignObject > section code{display:inline-block;font-family:Roboto Mono,monospace;font-size:.8em;letter-spacing:0;margin:-.1em .15em;padding:.1em .2em;vertical-align:baseline}div#\:\$p > svg > foreignObject > section :is(pre, marp-pre){display:block;margin:1em 0 0;overflow:visible}div#\:\$p > svg > foreignObject > section :is(pre, marp-pre) code{box-sizing:border-box;margin:0;min-width:100%;padding:.5em;font-size:.7em}div#\:\$p > svg > foreignObject > section :is(pre, marp-pre)::part(auto-scaling){max-height:calc(580px - 1em)}div#\:\$p > svg > foreignObject > section blockquote{margin:1em 0 0;padding:0 1em;position:relative}div#\:\$p > svg > foreignObject > section blockquote:after,div#\:\$p > svg > foreignObject > section blockquote:before{content:"“";display:block;font-family:Times New Roman,serif;font-weight:700;position:absolute}div#\:\$p > svg > foreignObject > section blockquote:before{top:0;left:0}div#\:\$p > svg > foreignObject > section blockquote:after{right:0;bottom:0;transform:rotate(180deg)}div#\:\$p > svg > foreignObject > section blockquote>:first-child{margin-top:0}div#\:\$p > svg > foreignObject > section mark{background:transparent}div#\:\$p > svg > foreignObject > section table{border-spacing:0;border-collapse:collapse;margin:1em 0 0}div#\:\$p > svg > foreignObject > section table td,div#\:\$p > svg > foreignObject > section table th{padding:.2em .4em;border-width:1px;border-style:solid}div#\:\$p > svg > foreignObject > section footer,div#\:\$p > svg > foreignObject > section header,div#\:\$p > svg > foreignObject > section:after{box-sizing:border-box;font-size:66%;height:70px;line-height:50px;overflow:hidden;padding:10px 25px;position:absolute}div#\:\$p > svg > foreignObject > section:after{--marpit-root-font-size:66%}div#\:\$p > svg > foreignObject > section header{top:0}div#\:\$p > svg > foreignObject > section footer,div#\:\$p > svg > foreignObject > section header{left:0;right:0}div#\:\$p > svg > foreignObject > section footer{bottom:0}div#\:\$p > svg > foreignObject > section{--color-background:light-dark(#fff8e1, #455a64);--color-background-stripe:light-dark(
+    rgba(69,90,100,.1),
+    rgba(255,248,225,.1)
+  );--color-foreground:light-dark(#455a64, #fff8e1);--color-dimmed:light-dark(
+    #6a7a7d,
+    #dad8c8
+  );--color-highlight:light-dark(#0288d1, #81d4fa);color-scheme:light;background-color:var(--color-background);background-image:linear-gradient(135deg, var(--color-background), color-mix(in srgb, var(--color-background) 98%, #888 2%) 50%, var(--color-background) 50%, color-mix(in srgb, var(--color-background) 95%, #fff 5%));color:var(--color-foreground);font-size:35px;font-family:Lato,Avenir Next,Avenir,Trebuchet MS,Segoe UI,sans-serif;height:720px;line-height:1.35;letter-spacing:1.25px;padding:70px;width:1280px;overflow-wrap:break-word}div#\:\$p > svg > foreignObject > section{--marpit-root-font-size:35px}div#\:\$p > svg > foreignObject > section:after{right:0;bottom:0;font-size:80%}div#\:\$p > svg > foreignObject > section:after{--marpit-root-font-size:80%}div#\:\$p > svg > foreignObject > section a,div#\:\$p > svg > foreignObject > section mark{color:var(--color-highlight)}div#\:\$p > svg > foreignObject > section code{background:var(--color-dimmed);color:var(--color-background)}div#\:\$p > svg > foreignObject > section :is(h1, marp-h1) strong,div#\:\$p > svg > foreignObject > section :is(h2, marp-h2) strong,div#\:\$p > svg > foreignObject > section :is(h3, marp-h3) strong,div#\:\$p > svg > foreignObject > section :is(h4, marp-h4) strong,div#\:\$p > svg > foreignObject > section :is(h5, marp-h5) strong,div#\:\$p > svg > foreignObject > section :is(h6, marp-h6) strong{color:var(--color-highlight)}div#\:\$p > svg > foreignObject > section :is(pre, marp-pre){background:var(--color-foreground)}div#\:\$p > svg > foreignObject > section :is(pre, marp-pre)>code{background:transparent}div#\:\$p > svg > foreignObject > section blockquote:after,div#\:\$p > svg > foreignObject > section blockquote:before,div#\:\$p > svg > foreignObject > section footer,div#\:\$p > svg > foreignObject > section header,div#\:\$p > svg > foreignObject > section section:after{color:var(--color-dimmed)}div#\:\$p > svg > foreignObject > section table td,div#\:\$p > svg > foreignObject > section table th{border-color:var(--color-foreground)}div#\:\$p > svg > foreignObject > section table thead th{background:var(--color-foreground);color:var(--color-background)}div#\:\$p > svg > foreignObject > section table tbody>tr:nth-child(odd) td,div#\:\$p > svg > foreignObject > section table tbody>tr:nth-child(odd) th{background:var(--color-background-stripe, transparent)}div#\:\$p > svg > foreignObject > section>:first-child,div#\:\$p > svg > foreignObject > section>header:first-child+*{margin-top:0}div#\:\$p > svg > foreignObject > section:where(.invert){color-scheme:dark}div#\:\$p > svg > foreignObject > section:where(.gaia){--color-background:#0288d1;--color-background-stripe:rgba(255,248,225,.1);--color-foreground:#fff8e1;--color-dimmed:#cce2de;--color-highlight:#81d4fa;}div#\:\$p > svg > foreignObject > section:where(.lead){place-content:safe center center;flex-flow:column nowrap;align-items:stretch}div#\:\$p > svg > foreignObject > section:where(.lead) :is(h1, marp-h1),div#\:\$p > svg > foreignObject > section:where(.lead) :is(h2, marp-h2),div#\:\$p > svg > foreignObject > section:where(.lead) :is(h3, marp-h3),div#\:\$p > svg > foreignObject > section:where(.lead) :is(h4, marp-h4),div#\:\$p > svg > foreignObject > section:where(.lead) :is(h5, marp-h5),div#\:\$p > svg > foreignObject > section:where(.lead) :is(h6, marp-h6){text-align:center}div#\:\$p > svg > foreignObject > section:where(.lead) p{text-align:center}div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h1, marp-h1),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h2, marp-h2),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h3, marp-h3),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h4, marp-h4),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h5, marp-h5),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>:is(h6, marp-h6),div#\:\$p > svg > foreignObject > section:where(.lead) blockquote>p{text-align:left}div#\:\$p > svg > foreignObject > section:where(.lead) ol>li>p,div#\:\$p > svg > foreignObject > section:where(.lead) ul>li>p{text-align:left}div#\:\$p > svg > foreignObject > section:where(.lead) table{margin-left:auto;margin-right:auto}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tvc1uBOD] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tvc1uBOD] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tvc1uBOD] .cols ul{margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] .prev :is(h3, marp-h3){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kwD9smRa] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] .prev{font-size:0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-eYBF5VBO] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] .prev{font-size:0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-EfRHhF5m] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] .prev{font-size:0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-B5BuLdgj] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-Gx5CoqOg] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-Gx5CoqOg] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-Gx5CoqOg] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-Gx5CoqOg] .cols ul{margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .prev :is(h3, marp-h3){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-h6FEIvwz] .prev ul{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .prev :is(h3, marp-h3), div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .prev :is(h4, marp-h4){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-s00yNNUz] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-tdNeeAkm] .note{color:#b45309;background-color:#fef3c7}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HXYKmpH3] #joining{color:#1e3a8a;background-color:#dbeafe}div#\:\$p > svg > foreignObject > section[data-marpit-scope-dc7n1qVH] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-dc7n1qVH] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-dc7n1qVH] .cols ul{margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .prev :is(h4, marp-h4){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-j5ycNsow] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .prev :is(h4, marp-h4){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NBxRUDwj] .card{background-color:#eef4f1;color:#1b5e55}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-WjYdjOok] .price{color:#b91c1c;background-color:#fee2e2}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NR0lMdLe] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NR0lMdLe] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NR0lMdLe] .cols ul{margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NR0lMdLe] .sw{display:inline-block;padding:0.2em 0.6em;margin:0.15em;font-size:0.5em;color:#ffffff}div#\:\$p > svg > foreignObject > section[data-marpit-scope-NR0lMdLe] div#\:\$p > svg > foreignObject > section section.sw{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-O5akzl45] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-O5akzl45] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-O5akzl45] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-O5akzl45] .sw{display:block;padding:0.25em 0.6em;margin:0.15em 0;font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-O5akzl45] div#\:\$p > svg > foreignObject > section section.sw{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] .cols ul{margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] .sw{display:block;padding:0.25em 0.6em;margin:0.15em 0;font-size:0.5em;color:#ffffff}div#\:\$p > svg > foreignObject > section[data-marpit-scope-5Xhn3V6D] div#\:\$p > svg > foreignObject > section section.sw{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .prev :is(h4, marp-h4){margin:0.2em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-w9hfx23c] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .warning{background-color:#fef3c7;color:#7c2d12}div#\:\$p > svg > foreignObject > section[data-marpit-scope-g0amU14P] .deadline{background-color:#fee2e2;color:#b91c1c}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kgMJ06vW] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kgMJ06vW] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kgMJ06vW] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-kgMJ06vW] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HO5eKkai] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HO5eKkai] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HO5eKkai] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-HO5eKkai] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-mDwTHxjW] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-mDwTHxjW] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-mDwTHxjW] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-mDwTHxjW] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-3fm9lSHt] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-3fm9lSHt] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-3fm9lSHt] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-3fm9lSHt] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .box{color:#1b5e55;background-color:#fef3c7}div#\:\$p > svg > foreignObject > section[data-marpit-scope-15lc0dj4] .clear{background-color:#ffffff}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-FmaJlQ2Y] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .cols :is(pre, marp-pre){margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .prev{font-size:0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.5em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .prev p{margin:0.3em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] .note{color:#15803d}div#\:\$p > svg > foreignObject > section[data-marpit-scope-A8105mhS] #first{color:#b91c1c}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DbakkzKt] .cols{display:flex;gap:0.8em;align-items:flex-start}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DbakkzKt] .cols > div{flex:1 1 50%;min-width:0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DbakkzKt] .cols :is(pre, marp-pre){margin:0;font-size:0.75em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DMBfEiPU] .prev{font-size:0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DMBfEiPU] div#\:\$p > svg > foreignObject > section section.prev{--marpit-root-font-size: 0.55em}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DMBfEiPU] .prev :is(h2, marp-h2), div#\:\$p > svg > foreignObject > section[data-marpit-scope-DMBfEiPU] .prev :is(h3, marp-h3){margin:0.25em 0}div#\:\$p > svg > foreignObject > section[data-marpit-scope-DMBfEiPU] .prev p{margin:0.4em 0}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"]{columns:initial!important;display:block!important;padding:0!important}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"]::before, div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"]::after, div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="content"]::before, div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="content"]::after{display:none!important}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container]{all:initial;display:flex;flex-direction:row;height:100%;overflow:hidden;width:100%}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container][data-marpit-advanced-background-direction="vertical"]{flex-direction:column}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"][data-marpit-advanced-background-split] > div[data-marpit-advanced-background-container]{width:var(--marpit-advanced-background-split, 50%)}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"][data-marpit-advanced-background-split="right"] > div[data-marpit-advanced-background-container]{margin-left:calc(100% - var(--marpit-advanced-background-split, 50%))}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container] > figure{all:initial;background-position:center;background-repeat:no-repeat;background-size:cover;flex:auto;margin:0}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="background"] > div[data-marpit-advanced-background-container] > figure > figcaption{position:absolute;border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;white-space:nowrap;width:1px}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="content"], div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="pseudo"]{background:transparent!important}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background="pseudo"], div#\:\$p > svg[data-marpit-svg] > foreignObject[data-marpit-advanced-background="pseudo"]{pointer-events:none!important}div#\:\$p > svg > foreignObject > section[data-marpit-advanced-background-split]{width:100%;height:100%}
+</style></head><body><div class="bespoke-marp-osc"><button data-bespoke-marp-osc="prev" tabindex="-1" title="Previous slide">Previous slide</button><span data-bespoke-marp-osc="page"></span><button data-bespoke-marp-osc="next" tabindex="-1" title="Next slide">Next slide</button><button data-bespoke-marp-osc="fullscreen" tabindex="-1" title="Toggle fullscreen (f)">Toggle fullscreen</button><button data-bespoke-marp-osc="overview" tabindex="-1" title="Toggle overview view (o)">Toggle overview view</button><button data-bespoke-marp-osc="presenter" tabindex="-1" title="Open presenter view (p)">Open presenter view</button></div><div id=":$p"><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="1" data-paginate="true" data-class="lead" data-theme="gaia" lang="en-US" class="lead" data-marpit-pagination="1" style="--paginate:true;--class:lead;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="css-%E1%83%A1%E1%83%90%E1%83%A4%E1%83%A3%E1%83%AB%E1%83%95%E1%83%9A%E1%83%94%E1%83%91%E1%83%98">CSS საფუძვლები</h1>
+<p>ვებგვერდის ელემენტების გაფორმება სტილების საშუალებით</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="2" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90-%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1-css">რა არის CSS</h1>
+<ul>
+<li>ყველა გვერდი, რომელიც აქამდე ავაგეთ, შავ-თეთრი იყო</li>
+<li>HTML-ს გარეგნობა არ აინტერესებს</li>
+<li><strong>CSS</strong> — Cascading Style Sheets</li>
+<li>CSS ეუბნება ბრაუზერს, როგორ გამოიყურებოდეს ელემენტი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-marpit-scope-tvc1uBOD="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="3" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="html-%E1%83%A0%E1%83%90%E1%83%A1-%E1%83%90%E1%83%9B%E1%83%91%E1%83%9D%E1%83%91%E1%83%A1-css-%E1%83%A0%E1%83%90%E1%83%A1">HTML რას ამბობს, CSS რას</h1>
+<div class="cols">
+<div>
+<p><strong>HTML ამბობს</strong></p>
+<ul>
+<li>ეს სათაურია</li>
+<li>ეს აბზაცია</li>
+<li>ეს სიაა</li>
+</ul>
+</div>
+<div>
+<p><strong>CSS ამბობს</strong></p>
+<ul>
+<li>სათაური მწვანეა</li>
+<li>აბზაცი რუხია</li>
+<li>სიის ფონი ყვითელია</li>
+</ul>
+</div>
+</div>
+<p>HTML — მნიშვნელობა. CSS — იერსახე. უHTML-ოდ CSS-ს გასაფორმებელი არაფერი აქვს.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-marpit-scope-kwD9smRa="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="4" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%94%E1%83%A0%E1%83%97%E1%83%98-%E1%83%93%E1%83%90-%E1%83%98%E1%83%92%E1%83%98%E1%83%95%E1%83%94-html--%E1%83%9D%E1%83%A0%E1%83%98-%E1%83%98%E1%83%94%E1%83%A0%E1%83%A1%E1%83%90%E1%83%AE%E1%83%94">ერთი და იგივე HTML — ორი იერსახე</h1>
+<div class="cols">
+<div>
+<p><strong>CSS-ის გარეშე</strong></p>
+<div class="prev">
+<h3>Riverside Club</h3>
+<p>We meet twice a week by the old bridge.</p>
+<p>New members are welcome.</p>
+</div>
+</div>
+<div>
+<p><strong>CSS-ით</strong></p>
+<div class="prev" style="background-color: #eef4f1;">
+<h3 style="color: #1b5e55;">Riverside Club</h3>
+<p style="color: #334155;">We meet twice a week by the old bridge.</p>
+<p style="color: #b45309;">New members are welcome.</p>
+</div>
+</div>
+</div>
+<p>HTML ორივეში ერთი და იგივეა. შეიცვალა მხოლოდ CSS.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="5" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="css-%E1%83%98%E1%83%A1-%E1%83%93%E1%83%90%E1%83%9B%E1%83%90%E1%83%A2%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%9B%E1%83%98-%E1%83%92%E1%83%96%E1%83%90">CSS-ის დამატების სამი გზა</h1>
+<ul>
+<li><strong>inline</strong> — <code>style</code> ატრიბუტი თავად ტეგში</li>
+<li><strong>internal</strong> — <code>&lt;style&gt;</code> ბლოკი <code>&lt;head&gt;</code>-ში</li>
+<li><strong>external</strong> — ცალკე <code>.css</code> ფაილი</li>
+<li>სამივე ერთსა და იმავეს აკეთებს</li>
+<li>ჩვენ ვიყენებთ მხოლოდ მესამეს. ახლა ვნახავთ, რატომ.</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="6" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="inline-style--style-%E1%83%90%E1%83%A2%E1%83%A0%E1%83%98%E1%83%91%E1%83%A3%E1%83%A2%E1%83%98">Inline style — <code>style</code> ატრიბუტი</h1>
+<ul>
+<li><code>style</code> ჩვეულებრივი ატრიბუტია და ტეგის შიგნით იწერება</li>
+<li>შიგნით ვწერთ წყვილს: property და value</li>
+<li>მოქმედებს მხოლოდ ამ ერთ ელემენტზე</li>
+<li>რამდენიმე წესი ერთმანეთისგან <code>;</code>-ით იყოფა</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-marpit-scope-eYBF5VBO="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="7" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="inline-style--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">Inline style — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;color: #b91c1c;&quot;</span>&gt;</span>
+  This paragraph is red.
+<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>This one is not.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="color: #b91c1c;">This paragraph is red.</p>
+<p>This one is not.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="8" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%9B-%E1%83%95%E1%83%94%E1%83%A0%E1%83%98%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%97-inline-style-%E1%83%A1">რატომ ვერიდებით inline style-ს</h1>
+<ul>
+<li>წესი უნდა დავამატოთ ყოველ ელემენტს ცალ-ცალკე</li>
+<li>ასი აბზაცი = ასი <code>style</code> ატრიბუტი</li>
+<li>ფერის შეცვლა = ასი ადგილის გასწორება</li>
+<li>HTML ფაილი რთულდება და სტრუქტურა აღარ იკითხება</li>
+<li>ვიყენებთ მხოლოდ გამონაკლის შემთხვევაში</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="9" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="internal-css--style-%E1%83%91%E1%83%9A%E1%83%9D%E1%83%99%E1%83%98">Internal CSS — <code>&lt;style&gt;</code> ბლოკი</h1>
+<ul>
+<li><code>&lt;style&gt;</code> ტეგი იწერება <code>&lt;head&gt;</code>-ის შიგნით</li>
+<li>მის შიგნით CSS წესებს ვწერთ, არა HTML ტეგებს</li>
+<li>ერთი წესი მოქმედებს გვერდის ყველა შესაბამის ელემენტზე</li>
+<li>ასი აბზაცისთვის საკმარისია ერთი წესი</li>
+<li>მაგრამ მოქმედებს მხოლოდ ამ ერთ გვერდზე</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-marpit-scope-EfRHhF5m="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="10" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="internal-css--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">Internal CSS — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css">
+    <span class="hljs-selector-tag">p</span> {
+      <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+    }
+  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="color: #b91c1c;">First paragraph.</p>
+<p style="color: #b91c1c;">Second paragraph.</p>
+<p style="color: #b91c1c;">Third paragraph.</p>
+</div>
+<p>ერთი წესი — სამივე აბზაცი.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="11" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="external-css--%E1%83%AA%E1%83%90%E1%83%9A%E1%83%99%E1%83%94-%E1%83%A4%E1%83%90%E1%83%98%E1%83%9A%E1%83%98">External CSS — ცალკე ფაილი</h1>
+<ul>
+<li>CSS იწერება ცალკე ფაილში, მაგალითად <code>css/style.css</code></li>
+<li>ფაილში მხოლოდ წესებია — არც ერთი HTML ტეგი</li>
+<li>გვერდს ვუერთებთ <code>&lt;link&gt;</code>-ით, <code>&lt;head&gt;</code>-ის შიგნით</li>
+<li><code>rel=&quot;stylesheet&quot;</code> ამბობს, რა ტიპის კავშირია</li>
+<li><code>href</code> — იგივე relative path, რაც სურათებში</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-marpit-scope-B5BuLdgj="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="12" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="external-css--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">External CSS — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<p><code>index.html</code></p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span>
+        <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;css/style.css&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</code></pre>
+<p><code>css/style.css</code></p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="color: #b91c1c;">First paragraph.</p>
+<p style="color: #b91c1c;">Second paragraph.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="13" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="13" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%9B-%E1%83%98%E1%83%92%E1%83%94%E1%83%91%E1%83%A1-external-css">რატომ იგებს external CSS</h1>
+<ul>
+<li>ერთი ფაილი აფორმებს საიტის ყველა გვერდს</li>
+<li>ფერს ერთ ადგილას ვცვლით — იცვლება მთელ საიტზე</li>
+<li>HTML რჩება სუფთა: სტრუქტურა ცალკე, იერსახე ცალკე</li>
+<li>ბრაუზერი ფაილს ერთხელ ჩამოტვირთავს და დაიმახსოვრებს</li>
+<li>ამ მოდულში ყოველთვის external CSS-ს ვწერთ</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="14" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="14" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="css-%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%98%E1%83%9C%E1%83%A2%E1%83%90%E1%83%A5%E1%83%A1%E1%83%98">CSS-ის სინტაქსი</h1>
+<ul>
+<li>CSS წესი (rule) ორი ნაწილისგან შედგება</li>
+<li><strong>selector</strong> — ვის ვაფორმებთ</li>
+<li><strong>declaration</strong> — რას ვუცვლით</li>
+<li>declaration თავად ორი ნაწილია: property და value</li>
+<li>ერთ წესში რამდენიმე declaration შეიძლება</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="15" data-marpit-scope-Gx5CoqOg="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="15" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A1%E1%83%98%E1%83%9C%E1%83%A2%E1%83%90%E1%83%A5%E1%83%A1%E1%83%98--%E1%83%9C%E1%83%90%E1%83%AC%E1%83%98%E1%83%9A%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%94%E1%83%9A%E1%83%94%E1%83%91%E1%83%98">სინტაქსი — ნაწილების სახელები</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">color</span>: teal;
+  <span class="hljs-attribute">background-color</span>: gold;
+}
+</code></pre>
+</div>
+<div>
+<ul>
+<li><code>h2</code> — <strong>selector</strong></li>
+<li><code>{</code> და <code>}</code> — <strong>curly braces</strong></li>
+<li><code>color</code> — <strong>property</strong></li>
+<li><code>:</code> — <strong>colon</strong></li>
+<li><code>teal</code> — <strong>value</strong></li>
+<li><code>;</code> — <strong>semicolon</strong></li>
+</ul>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="16" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%AE%E1%83%A8%E1%83%98%E1%83%A0%E1%83%98-%E1%83%A1%E1%83%98%E1%83%9C%E1%83%A2%E1%83%90%E1%83%A5%E1%83%A1%E1%83%A3%E1%83%A0%E1%83%98-%E1%83%A8%E1%83%94%E1%83%AA%E1%83%93%E1%83%9D%E1%83%9B%E1%83%94%E1%83%91%E1%83%98">ხშირი სინტაქსური შეცდომები</h1>
+<ul>
+<li>დავიწყებული <code>;</code> — შემდეგი declaration აღარ მუშაობს</li>
+<li>დაუხურავი <code>}</code> — ქვემოთ მდგომი ყველა წესი ფუჭდება</li>
+<li><code>=</code> <code>:</code>-ის ნაცვლად — CSS-ში ყოველთვის <code>:</code> იწერება</li>
+<li>CSS-ში შეცდომა შეტყობინებას არ გამოიტანს; წესი უბრალოდ იგნორირდება</li>
+<li>სწორედ ამიტომ ვალიდატორი CSS-საც სჭირდება</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="17" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="17" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%99%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%90%E1%83%A0%E1%83%98-css-%E1%83%A8%E1%83%98">კომენტარი CSS-ში</h1>
+<ul>
+<li><code>/* ტექსტი */</code> — ბრაუზერი მას უგულებელყოფს</li>
+<li>HTML-ის <code>&lt;!-- --&gt;</code> CSS-ში <strong>არ</strong> მუშაობს</li>
+<li>გამოგვადგება ფაილის ნაწილებად დასაყოფად</li>
+<li>წესის დროებით გამორთვას კომენტარში ჩასმით ვაკეთებთ</li>
+</ul>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-comment">/* Header colours */</span>
+<span class="hljs-selector-tag">h1</span> {
+  <span class="hljs-attribute">color</span>: teal;
+}
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="18" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="18" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="element-selector">Element selector</h1>
+<ul>
+<li>selector-ად იწერება ტეგის სახელი, <code>&lt;</code> და <code>&gt;</code>-ის გარეშე</li>
+<li><code>p</code> — გვერდის ყველა აბზაცი</li>
+<li><code>li</code> — სიის ყველა პუნქტი, სადაც არ უნდა იყოს</li>
+<li>მოქმედებს ყველა ასეთ ელემენტზე, გამონაკლისის გარეშე</li>
+<li>იცნობს ყველა ტეგს: <code>h1</code>–<code>h6</code>, <code>ul</code>, <code>ol</code>, <code>li</code>, <code>div</code>, <code>span</code>, <code>strong</code>, <code>em</code>, <code>sub</code>, <code>sup</code></li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-marpit-scope-h6FEIvwz="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="19" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="element-selector--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">Element selector — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">h3</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1b5e55</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#334155</span>;
+}
+
+<span class="hljs-selector-tag">strong</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<h3 style="color: #1b5e55;">Our groups</h3>
+<p style="color: #334155;">The photo group meets on <strong style="color: #b91c1c;">Tuesday</strong>.</p>
+<p style="color: #334155;">The hiking group meets on <strong style="color: #b91c1c;">Thursday</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="20" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="20" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%9B%E1%83%93%E1%83%94%E1%83%9C%E1%83%98%E1%83%9B%E1%83%94-%E1%83%94%E1%83%9A%E1%83%94%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%98-%E1%83%94%E1%83%A0%E1%83%97%E1%83%90%E1%83%93--%E1%83%9B%E1%83%AB%E1%83%98%E1%83%9B%E1%83%94">რამდენიმე ელემენტი ერთად — მძიმე</h1>
+<ul>
+<li>მძიმე ყოფს selector-ებს: <code>h1, h2, h3</code></li>
+<li>ერთი წესი მოქმედებს სამივეზე</li>
+<li>იმავე კოდის სამჯერ გადაწერა საჭირო არ არის</li>
+<li>მძიმე აუცილებელია — უმისოდ <code>h1 h2</code> სულ სხვა რამეს ნიშნავს</li>
+<li>წაკითხვადობისთვის ხშირად ყოველ selector-ს ცალკე ხაზზე წერენ</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="21" data-marpit-scope-s00yNNUz="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="21" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%9B%E1%83%AB%E1%83%98%E1%83%9B%E1%83%98%E1%83%97-%E1%83%92%E1%83%90%E1%83%94%E1%83%A0%E1%83%97%E1%83%98%E1%83%90%E1%83%9C%E1%83%94%E1%83%91%E1%83%90--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">მძიმით გაერთიანება — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">h3</span>,
+<span class="hljs-selector-tag">h4</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#7c2d12</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#334155</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<h3 style="color: #7c2d12;">Riverside Club</h3>
+<p style="color: #334155;">Two meetings every week.</p>
+<h4 style="color: #7c2d12;">Photo group</h4>
+<p style="color: #334155;">Tuesday, room 9.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="22" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="22" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="class-%E1%83%90%E1%83%A2%E1%83%A0%E1%83%98%E1%83%91%E1%83%A3%E1%83%A2%E1%83%98-%E1%83%93%E1%83%90--selector"><code>class</code> ატრიბუტი და <code>.</code> selector</h1>
+<ul>
+<li><code>class</code> — სახელი, რომელსაც ელემენტს <strong>ჩვენ</strong> ვარქმევთ</li>
+<li><code>&lt;p class=&quot;note&quot;&gt;</code> — ამ აბზაცს დავარქვით <code>note</code></li>
+<li>CSS-ში ვწერთ <code>.note</code> — წერტილი სახელის წინ აუცილებელია</li>
+<li>ერთი და იგივე <code>class</code> გვერდზე რამდენჯერაც გვინდა მეორდება</li>
+<li>სახელში space არ იწერება: <code>note-box</code>, და არა <code>note box</code></li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="23" data-marpit-scope-tdNeeAkm="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="23" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="class--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>class</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;note&quot;</span>&gt;</span>Bring water.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Routes are 5 to 14 km.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;note&quot;</span>&gt;</span>Wear boots.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.note</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b45309</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fef3c7</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p class="note">Bring water.</p>
+<p>Routes are 5 to 14 km.</p>
+<p class="note">Wear boots.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="24" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="24" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="id-%E1%83%90%E1%83%A2%E1%83%A0%E1%83%98%E1%83%91%E1%83%A3%E1%83%A2%E1%83%98-%E1%83%93%E1%83%90--selector"><code>id</code> ატრიბუტი და <code>#</code> selector</h1>
+<ul>
+<li><code>id</code> — სახელი, რომელიც გვერდზე მხოლოდ <strong>ერთხელ</strong> გვხვდება</li>
+<li><code>&lt;div id=&quot;joining&quot;&gt;</code> — ეს ბლოკი გვერდზე ერთადერთია</li>
+<li>CSS-ში ვწერთ <code>#joining</code> — ჰეში სახელის წინ აუცილებელია</li>
+<li><code>id</code>-ს უკვე ვიცნობთ: ღუზები (<code>href=&quot;#joining&quot;</code>) და <code>label for</code></li>
+<li>იმავე <code>id</code>-ს გამეორება გვერდზე ვალიდატორის შეცდომაა</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="25" data-marpit-scope-HXYKmpH3="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="25" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="id--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>id</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;joining&quot;</span>&gt;</span>How to join<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Come to any meeting.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-id">#joining</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1e3a8a</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#dbeafe</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p id="joining">How to join</p>
+<p>Come to any meeting.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="26" data-marpit-scope-dc7n1qVH="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="26" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="class-%E1%83%93%E1%83%90-id--%E1%83%A8%E1%83%94%E1%83%93%E1%83%90%E1%83%A0%E1%83%94%E1%83%91%E1%83%90"><code>class</code> და <code>id</code> — შედარება</h1>
+<div class="cols">
+<div>
+<p><strong><code>class</code></strong> — <code>.name</code></p>
+<ul>
+<li>მეორდება რამდენჯერაც გვინდა</li>
+<li>ჯგუფისთვისაა</li>
+<li>ერთ ელემენტს რამდენიმე <code>class</code> შეიძლება</li>
+<li>CSS-ში 95%-ში ამას ვიყენებთ</li>
+</ul>
+</div>
+<div>
+<p><strong><code>id</code></strong> — <code>#name</code></p>
+<ul>
+<li>გვერდზე მხოლოდ ერთხელ</li>
+<li>ერთი კონკრეტული ელემენტისთვის</li>
+<li>ერთ ელემენტს მხოლოდ ერთი <code>id</code></li>
+<li>ღუზებისა და <code>label for</code>-ისთვის</li>
+</ul>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="27" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="27" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%9B-%E1%83%90%E1%83%A0%E1%83%A1%E1%83%94%E1%83%91%E1%83%9D%E1%83%91%E1%83%A1-div-%E1%83%93%E1%83%90-span">რატომ არსებობს <code>div</code> და <code>span</code></h1>
+<ul>
+<li><code>div</code>-ს ბრაუზერისთვის არანაირი მნიშვნელობა არ აქვს</li>
+<li>სწორედ ეს არის მისი აზრი: ის სუფთა, ცარიელი კონტეინერია</li>
+<li>ჩვენ მას ვქმნით იმიტომ, რომ <strong>CSS-ს დავადოთ</strong></li>
+<li><code>div</code> — ბლოკის კონტეინერი; <code>span</code> — ტექსტის შიგნით კონტეინერი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="28" data-marpit-scope-j5ycNsow="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="28" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="div-%E1%83%98%E1%83%A1-%E1%83%92%E1%83%90%E1%83%A0%E1%83%94%E1%83%A8%E1%83%94--%E1%83%95%E1%83%94%E1%83%A0-%E1%83%95%E1%83%90%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%94%E1%83%91%E1%83%97"><code>div</code>-ის გარეშე — ვერ ვაფორმებთ</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Photo group<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Tuesday, room 9.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Hiking group<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Thursday, the gym.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<p>ეს ოთხი ელემენტია. ორი ჯგუფი აქ მხოლოდ ჩვენს თავშია — კოდში ჯგუფი არ არსებობს.</p>
+</div>
+<div>
+<div class="prev">
+<h4>Photo group</h4>
+<p>Tuesday, room 9.</p>
+<h4>Hiking group</h4>
+<p>Thursday, the gym.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="29" data-marpit-scope-NBxRUDwj="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="29" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="div-classcard--%E1%83%93%E1%83%90-%E1%83%AF%E1%83%92%E1%83%A3%E1%83%A4%E1%83%98-%E1%83%92%E1%83%90%E1%83%A4%E1%83%9D%E1%83%A0%E1%83%9B%E1%83%93%E1%83%90"><code>div class=&quot;card&quot;</code> — და ჯგუფი გაფორმდა</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;card&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Photo group<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Tuesday, room 9.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;card&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Hiking group<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Thursday, the gym.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.card</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#eef4f1</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1b5e55</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<div class="card">
+<h4>Photo group</h4>
+<p>Tuesday, room 9.</p>
+</div>
+<div class="card">
+<h4>Hiking group</h4>
+<p>Thursday, the gym.</p>
+</div>
+</div>
+<p>ერთი წესი — მთელი ბლოკი.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="30" data-marpit-scope-WjYdjOok="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="30" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="span--%E1%83%AC%E1%83%98%E1%83%9C%E1%83%90%E1%83%93%E1%83%90%E1%83%93%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%94%E1%83%A0%E1%83%97%E1%83%98-%E1%83%9C%E1%83%90%E1%83%AC%E1%83%98%E1%83%9A%E1%83%98"><code>span</code> — წინადადების ერთი ნაწილი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>The camera costs
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;price&quot;</span>&gt;</span>15 GEL<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  a day.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.price</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fee2e2</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p>The camera costs <span class="price">15 GEL</span> a day.</p>
+</div>
+<p><code>span</code>-ის გარეშე ამ ორ სიტყვას ვერ მივწვდებოდით — CSS წინადადების შუაში ვერ შედის.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="31" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="31" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%90%E1%83%A1%E1%83%94-%E1%83%95%E1%83%A4%E1%83%98%E1%83%A5%E1%83%A0%E1%83%9D%E1%83%91%E1%83%97-div-%E1%83%A1%E1%83%90-%E1%83%93%E1%83%90-span-%E1%83%96%E1%83%94">ასე ვფიქრობთ <code>div</code>-სა და <code>span</code>-ზე</h1>
+<ul>
+<li>გინდა წინადადების ერთი ნაწილი გამოყო? — <code>span</code></li>
+<li>გინდა რამდენიმე ელემენტი ერთად გააფორმო? — <code>div</code></li>
+<li>ყოველთვის დაუწერე <code>class</code> — უმისოდ ვერაფერს დავადებთ</li>
+<li>თუ არსებობს სემანტიკური ტეგი (<code>header</code>, <code>section</code>, <code>nav</code>), ის ავირჩიოთ</li>
+<li><code>div</code> ბოლო არჩევანია, არა პირველი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="32" data-marpit-scope-NR0lMdLe="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="32" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A4%E1%83%94%E1%83%A0%E1%83%94%E1%83%91%E1%83%98--%E1%83%A1%E1%83%90%E1%83%AE%E1%83%94%E1%83%9A%E1%83%98%E1%83%97">ფერები — სახელით</h1>
+<div class="cols">
+<div>
+<ul>
+<li>CSS-ში 140-ზე მეტ ფერს აქვს მზა სახელი</li>
+<li>სახელი იწერება ბრჭყალების გარეშე</li>
+<li>ადვილად იკითხება და ადვილად გვახსოვს</li>
+<li>მინუსი: სახელები შეზღუდულია — ზუსტად იმ ფერს ვერ ვიღებთ, რომელიც გვინდა</li>
+</ul>
+</div>
+<div>
+<p><span class="sw" style="background-color: red;">red</span><br />
+<span class="sw" style="background-color: teal;">teal</span><br />
+<span class="sw" style="background-color: navy;">navy</span><br />
+<span class="sw" style="background-color: tomato;">tomato</span><br />
+<span class="sw" style="background-color: green;">green</span><br />
+<span class="sw" style="background-color: purple;">purple</span><br />
+<span class="sw" style="background-color: gray;">gray</span><br />
+<span class="sw" style="background-color: black;">black</span></p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="33" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="33" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="hexadecimal--%E1%83%A0%E1%83%90-%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1-ff0000">Hexadecimal — რა არის <code>#ff0000</code></h1>
+<ul>
+<li>ეკრანი ყველა ფერს სამი ნათურით აჩვენებს: <strong>წითელი, მწვანე, ლურჯი</strong></li>
+<li>თითოეულ ნათურას აქვს სიმძლავრე 0-დან 255-მდე</li>
+<li><code>0</code> — ჩამქრალი, <code>255</code> — სრულ სიმძლავრეზე ანთებული</li>
+<li>hex სწორედ ამ სამ რიცხვს წერს მოკლედ: <code>#RRGGBB</code></li>
+<li>hex-ის ციფრები: 0 1 2 3 4 5 6 7 8 9 a b c d e f — <code>f</code> ყველაზე დიდია</li>
+<li>ყოველი წყვილი ერთი ნათურაა: <code>00</code> — ჩამქრალი, <code>ff</code> — სრულად ანთებული</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="34" data-marpit-scope-O5akzl45="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="34" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="hex--%E1%83%9B%E1%83%90%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%97%E1%83%94%E1%83%91%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">hex — მაგალითები და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-id">#ff0000</span>   <span class="hljs-comment">/* full red */</span>
+<span class="hljs-selector-id">#00ff00</span>   <span class="hljs-comment">/* full green */</span>
+<span class="hljs-selector-id">#0000ff</span>   <span class="hljs-comment">/* full blue */</span>
+<span class="hljs-selector-id">#ffffff</span>   <span class="hljs-comment">/* all three full */</span>
+<span class="hljs-selector-id">#000000</span>   <span class="hljs-comment">/* all three off */</span>
+<span class="hljs-selector-id">#808080</span>   <span class="hljs-comment">/* all three half */</span>
+<span class="hljs-selector-id">#1b5e55</span>   <span class="hljs-comment">/* dark green */</span>
+</code></pre>
+</div>
+<div>
+<p><span class="sw" style="background-color: #ff0000; color: #ffffff;">#ff0000</span><br />
+<span class="sw" style="background-color: #00ff00; color: #000000;">#00ff00</span><br />
+<span class="sw" style="background-color: #0000ff; color: #ffffff;">#0000ff</span><br />
+<span class="sw" style="background-color: #ffffff; color: #000000;">#ffffff</span><br />
+<span class="sw" style="background-color: #000000; color: #ffffff;">#000000</span><br />
+<span class="sw" style="background-color: #808080; color: #ffffff;">#808080</span><br />
+<span class="sw" style="background-color: #1b5e55; color: #ffffff;">#1b5e55</span></p>
+</div>
+</div>
+<p>ზუსტი რიცხვების დათვლა არ გვჭირდება — color picker-ს ვიყენებთ.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="35" data-marpit-scope-5Xhn3V6D="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="35" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="rgb--%E1%83%98%E1%83%92%E1%83%98%E1%83%95%E1%83%94-%E1%83%98%E1%83%93%E1%83%94%E1%83%90-%E1%83%A9%E1%83%95%E1%83%94%E1%83%A3%E1%83%9A%E1%83%94%E1%83%91%E1%83%A0%E1%83%98%E1%83%95%E1%83%98-%E1%83%AA%E1%83%98%E1%83%A4%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%97"><code>rgb()</code> — იგივე იდეა, ჩვეულებრივი ციფრებით</h1>
+<div class="cols">
+<div>
+<ul>
+<li><code>rgb(255, 0, 0)</code> — სამი რიცხვი იმავე რიგით</li>
+<li>წითელი, მწვანე, ლურჯი; ყოველი 0-დან 255-მდე</li>
+<li><code>#ff0000</code> და <code>rgb(255, 0, 0)</code> ერთი და იგივე ფერია</li>
+<li>hex უფრო მოკლეა, ამიტომ უფრო ხშირად გვხვდება</li>
+</ul>
+</div>
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css">rgb(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
+rgb(<span class="hljs-number">27</span>, <span class="hljs-number">94</span>, <span class="hljs-number">85</span>)
+</code></pre>
+<p><span class="sw" style="background-color: rgb(255, 0, 0);">rgb(255, 0, 0)</span><br />
+<span class="sw" style="background-color: rgb(27, 94, 85);">rgb(27, 94, 85)</span></p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="36" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="36" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="color--%E1%83%A2%E1%83%94%E1%83%A5%E1%83%A1%E1%83%A2%E1%83%98%E1%83%A1-%E1%83%A4%E1%83%94%E1%83%A0%E1%83%98"><code>color</code> — ტექსტის ფერი</h1>
+<ul>
+<li><code>color</code> ცვლის <strong>ტექსტის</strong> ფერს</li>
+<li>სახელი ცოტა მატყუარაა: ფონს ის არ ეხება</li>
+<li>მუშაობს ყველა ელემენტზე, რომელსაც ტექსტი აქვს</li>
+<li>მნიშვნელობა შეიძლება იყოს სახელი, hex ან <code>rgb()</code></li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="37" data-marpit-scope-w9hfx23c="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="37" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="color--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>color</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">h4</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1b5e55</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">rgb</span>(<span class="hljs-number">100</span>, <span class="hljs-number">116</span>, <span class="hljs-number">139</span>);
+}
+
+<span class="hljs-selector-tag">em</span> {
+  <span class="hljs-attribute">color</span>: tomato;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<h4 style="color: #1b5e55;">River walk</h4>
+<p style="color: rgb(100, 116, 139);">Fourteen kilometres, <em style="color: tomato;">bring water</em>.</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="38" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="38" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="background-color--%E1%83%A4%E1%83%9D%E1%83%9C%E1%83%98%E1%83%A1-%E1%83%A4%E1%83%94%E1%83%A0%E1%83%98"><code>background-color</code> — ფონის ფერი</h1>
+<ul>
+<li><code>background-color</code> ავსებს ელემენტის ფონს</li>
+<li>ბლოკური ელემენტის ფონი სრულ სიგანეს იკავებს</li>
+<li><code>span</code>-ზე ფონი მხოლოდ იმ სიტყვებს შემოეკვრის</li>
+<li>ნაგულისხმევი მნიშვნელობა — <code>transparent</code>, გამჭვირვალე</li>
+<li>ტექსტისა და ფონის ფერი ერთმანეთში არ უნდა შეერიოს</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="39" data-marpit-scope-g0amU14P="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="39" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="background-color--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>background-color</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;warning&quot;</span>&gt;</span>The river is high.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sign the list before
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;deadline&quot;</span>&gt;</span>Friday<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.warning</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fef3c7</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#7c2d12</span>;
+}
+
+<span class="hljs-selector-class">.deadline</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fee2e2</span>;
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p class="warning">The river is high.</p>
+<p>Sign the list before <span class="deadline">Friday</span>.</p>
+</div>
+<p>ბლოკს ფონი სრულ სიგანეზე აქვს, <code>span</code>-ს — მხოლოდ სიტყვაზე.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="40" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="40" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%9B-%E1%83%A1%E1%83%AD%E1%83%98%E1%83%A0%E1%83%93%E1%83%94%E1%83%91%E1%83%90-%E1%83%96%E1%83%9D%E1%83%9B%E1%83%90%E1%83%A1-%E1%83%94%E1%83%A0%E1%83%97%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98">რატომ სჭირდება ზომას ერთეული</h1>
+<ul>
+<li><code>font-size: 20</code> — ბრაუზერი ვერ გაიგებს: 20 რა?</li>
+<li>ყოველ რიცხვს თან უნდა ახლდეს ერთეული: <code>20px</code></li>
+<li>რიცხვსა და ერთეულს შორის space არ იწერება</li>
+<li>დღეს ოთხ ერთეულს გავივლით: <code>px</code>, <code>%</code>, <code>em</code>, <code>rem</code></li>
+<li>მათ <code>font-size</code>-ზე ვნახავთ, რომ შედეგი თვალით ჩანდეს</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="41" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="41" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="px--%E1%83%A4%E1%83%98%E1%83%A5%E1%83%A1%E1%83%98%E1%83%A0%E1%83%94%E1%83%91%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%AC%E1%83%95%E1%83%94%E1%83%A2%E1%83%98-%E1%83%94%E1%83%99%E1%83%A0%E1%83%90%E1%83%9C%E1%83%96%E1%83%94"><code>px</code> — ფიქსირებული წვეტი ეკრანზე</h1>
+<ul>
+<li><code>px</code> = pixel, ეკრანის ერთი წვეტი</li>
+<li><code>16px</code> ყოველთვის 16 წვეტია — არაფერზე დამოკიდებული არ არის</li>
+<li>ამიტომ <code>px</code> ყველაზე ადვილად წარმოსადგენია</li>
+<li>მინუსი: მომხმარებლის შრიფტის პარამეტრს არ ეთანხმება</li>
+<li>ვებში დღეს ტექსტს <code>px</code>-ით იშვიათად ვწერთ</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="42" data-marpit-scope-kgMJ06vW="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="42" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="px--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>px</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.small</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">14px</span>;
+}
+
+<span class="hljs-selector-class">.medium</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.large</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">32px</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="font-size: 14px;">14px text</p>
+<p style="font-size: 20px;">20px text</p>
+<p style="font-size: 32px;">32px text</p>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="43" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="43" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%9B%E1%83%A8%E1%83%9D%E1%83%91%E1%83%9A%E1%83%98%E1%83%A1-%E1%83%AC%E1%83%98%E1%83%9A%E1%83%98"><code>%</code> — მშობლის წილი</h1>
+<ul>
+<li>პროცენტი ყოველთვის <strong>რამესგან</strong> ითვლება</li>
+<li><code>font-size</code>-ში ის მშობლის ზომის წილია</li>
+<li>მშობელი <code>20px</code>, შვილი <code>150%</code> → შვილი <code>30px</code></li>
+<li>მშობელი რომ შეიცვალოს, შვილიც შეიცვლება</li>
+<li>პროცენტს სიგანეებისთვისაც ბევრს ვიხმართ — ეს D13-ში</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="44" data-marpit-scope-HO5eKkai="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="44" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>%</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;parent&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;child&quot;</span>&gt;</span>150% of 20px<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.parent</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.child</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">150%</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<div style="font-size: 20px;">
+<p style="font-size: 150%;">150% of 20px</p>
+</div>
+<p style="font-size: 20px;">20px, the parent size</p>
+</div>
+<p><code>150%</code> აქ ზუსტად <code>30px</code> გამოვიდა.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="45" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="45" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="em--%E1%83%9B%E1%83%98%E1%83%9B%E1%83%93%E1%83%98%E1%83%9C%E1%83%90%E1%83%A0%E1%83%94-%E1%83%A2%E1%83%94%E1%83%A5%E1%83%A1%E1%83%A2%E1%83%98%E1%83%A1-%E1%83%AF%E1%83%94%E1%83%A0%E1%83%90%E1%83%93%E1%83%98"><code>em</code> — მიმდინარე ტექსტის ჯერადი</h1>
+<ul>
+<li><code>em</code> — იმ ზომის ჯერადი, რომელიც ელემენტს უკვე აქვს</li>
+<li><code>1em</code> — იგივე ზომა, <code>2em</code> — ორჯერ დიდი, <code>0.5em</code> — ნახევარი</li>
+<li><code>font-size: 150%</code> და <code>font-size: 1.5em</code> ერთი და იგივეა</li>
+<li>საშიში ადგილი: ჩადგმულ ელემენტებში <code>em</code> <strong>გროვდება</strong></li>
+<li><code>1.5em</code> <code>1.5em</code>-ის შიგნით = 2.25-ჯერ დიდი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="46" data-marpit-scope-mDwTHxjW="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="46" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="em--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>em</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1em — 20px<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bigger&quot;</span>&gt;</span>
+    1.5em — 30px
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;bigger&quot;</span>&gt;</span>
+      again — 45px
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">20px</span>;
+}
+
+<span class="hljs-selector-class">.bigger</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.5em</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<div style="font-size: 20px;">
+<p>1em — 20px</p>
+<div style="font-size: 1.5em;">
+1.5em — 30px
+<div style="font-size: 1.5em;">
+again — 45px
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="47" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="rem--%E1%83%92%E1%83%95%E1%83%94%E1%83%A0%E1%83%93%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%91%E1%83%90%E1%83%96%E1%83%98%E1%83%A1%E1%83%9D-%E1%83%96%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A1-%E1%83%AF%E1%83%94%E1%83%A0%E1%83%90%E1%83%93%E1%83%98"><code>rem</code> — გვერდის საბაზისო ზომის ჯერადი</h1>
+<ul>
+<li><code>rem</code> = <strong>r</strong>oot <strong>em</strong>; root არის <code>&lt;html&gt;</code> ელემენტი</li>
+<li>ყოველთვის გვერდის საბაზისო ზომისგან ითვლება</li>
+<li>ბრაუზერის ნაგულისხმევი საბაზისო ზომა — <code>16px</code></li>
+<li>ამიტომ <code>1rem = 16px</code>, <code>1.5rem = 24px</code>, <code>2rem = 32px</code></li>
+<li>ჩადგმაზე არ იცვლება: სადაც დაწერ, იგივე ზომაა</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="48" data-marpit-scope-3fm9lSHt="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="48" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="rem--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98"><code>rem</code> — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;title&quot;</span>&gt;</span>2rem<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;title&quot;</span>&gt;</span>2rem again<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">40px</span>;
+}
+
+<span class="hljs-selector-class">.title</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2rem</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="font-size: 32px;">2rem</p>
+<div style="font-size: 40px;">
+<p style="font-size: 32px;">2rem again</p>
+</div>
+</div>
+<p>ორივე <code>32px</code>-ია. მშობლის <code>40px</code> <code>rem</code>-ზე არ მოქმედებს.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="49" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="49" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98-%E1%83%94%E1%83%A0%E1%83%97%E1%83%94%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%A0%E1%83%9D%E1%83%93%E1%83%98%E1%83%A1">რომელი ერთეული როდის</h1>
+<ul>
+<li><code>rem</code> — ტექსტის ზომებისთვის; ეს არის default არჩევანი</li>
+<li><code>em</code> — როცა ზომა მართლა მშობელს უნდა მიჰყვეს</li>
+<li><code>px</code> — წვრილი, ფიქსირებული რაღაცებისთვის</li>
+<li><code>%</code> — სიგანეებისთვის, რომ ეკრანს მოერგოს</li>
+<li>ეჭვის შემთხვევაში — <code>rem</code></li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="50" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="50" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%9B%E1%83%94%E1%83%9B%E1%83%99%E1%83%95%E1%83%98%E1%83%93%E1%83%A0%E1%83%94%E1%83%9D%E1%83%91%E1%83%90-inheritance">მემკვიდრეობა (inheritance)</h1>
+<ul>
+<li>ზოგი თვისება მშობლიდან შვილზე თვითონ გადადის</li>
+<li><code>color</code> გადადის: <code>body</code>-ზე დაწერილი ფერი მთელ გვერდს ეხება</li>
+<li><code>background-color</code> <strong>არ</strong> გადადის</li>
+<li>შვილი გამჭვირვალეა, ამიტომ მშობლის ფონი მის უკან ჩანს</li>
+<li>თუ შვილს თავისი წესი აქვს, იგებს შვილის წესი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" data-marpit-scope-15lc0dj4="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="51" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="inheritance--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98-%E1%83%93%E1%83%90-%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">inheritance — კოდი და შედეგი</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;box&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Green text: inherited.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;clear&quot;</span>&gt;</span>White background.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-class">.box</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1b5e55</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fef3c7</span>;
+}
+
+<span class="hljs-selector-class">.clear</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#ffffff</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<div class="box">
+<p>Green text: inherited.</p>
+<p class="clear">White background.</p>
+</div>
+</div>
+<p>ორივე აბზაცი მწვანეა — <code>color</code> გადმოვიდა. ყვითელი ფონი კი მხოლოდ <code>div</code>-ისაა.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="52" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%9D%E1%83%A0%E1%83%98-%E1%83%AC%E1%83%94%E1%83%A1%E1%83%98-%E1%83%94%E1%83%A0%E1%83%97-%E1%83%94%E1%83%9A%E1%83%94%E1%83%9B%E1%83%94%E1%83%9C%E1%83%A2%E1%83%96%E1%83%94">ორი წესი ერთ ელემენტზე</h1>
+<ul>
+<li>ერთ ელემენტს შეიძლება რამდენიმე წესი მოხვდეს</li>
+<li>ბრაუზერს სჭირდება წესი, რომ აირჩიოს, რომელი შეასრულოს</li>
+<li>ამას cascade ეძახიან — ეს არის CSS-ის პირველი „C&quot;</li>
+<li>ბრაუზერი ორ კითხვას სვამს</li>
+<li>პირველი: რომელი selector უფრო კონკრეტულია? მეორე: რომელი დგას ქვემოთ?</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-marpit-scope-FmaJlQ2Y="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="53" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%94%E1%83%A0%E1%83%97%E1%83%9C%E1%83%90%E1%83%98%E1%83%A0%E1%83%98-selector--%E1%83%A5%E1%83%95%E1%83%94%E1%83%9B%E1%83%9D%E1%83%97-%E1%83%9B%E1%83%93%E1%83%92%E1%83%9D%E1%83%9B%E1%83%98-%E1%83%98%E1%83%92%E1%83%94%E1%83%91%E1%83%A1">ერთნაირი selector — ქვემოთ მდგომი იგებს</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1d4ed8</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="color: #b91c1c;">This paragraph is red.</p>
+</div>
+<p>ორივე წესი ერთნაირად კონკრეტულია, ამიტომ ბოლო სიტყვა ქვემოთ მდგომს რჩება.</p>
+<p>ლურჯი წესი იწერება, მაგრამ არ მოქმედებს.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" data-marpit-scope-A8105mhS="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="54" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A1%E1%83%AE%E1%83%95%E1%83%90%E1%83%93%E1%83%90%E1%83%A1%E1%83%AE%E1%83%95%E1%83%90-selector--%E1%83%A3%E1%83%A4%E1%83%A0%E1%83%9D-%E1%83%99%E1%83%9D%E1%83%9C%E1%83%99%E1%83%A0%E1%83%94%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%98%E1%83%92%E1%83%94%E1%83%91%E1%83%A1">სხვადასხვა selector — უფრო კონკრეტული იგებს</h1>
+<div class="cols">
+<div>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Plain<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;note&quot;</span>&gt;</span>With a class<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;note&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;first&quot;</span>&gt;</span>Class and id<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-id">#first</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b91c1c</span>;
+}
+
+<span class="hljs-selector-class">.note</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#15803d</span>;
+}
+
+<span class="hljs-selector-tag">p</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1d4ed8</span>;
+}
+</code></pre>
+</div>
+<div>
+<div class="prev">
+<p style="color: #1d4ed8;">Plain</p>
+<p class="note">With a class</p>
+<p class="note" id="first">Class and id</p>
+</div>
+<p><code>id</code> იგებს <code>class</code>-ს, <code>class</code> იგებს ელემენტს.</p>
+<p>რიგითობა აქ არ შველის: <code>p</code> ყველაზე ქვემოთაა და მაინც წააგო.</p>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="55" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A0%E1%83%90%E1%83%A1-%E1%83%95%E1%83%90%E1%83%99%E1%83%94%E1%83%97%E1%83%94%E1%83%91%E1%83%97-%E1%83%90%E1%83%9B-%E1%83%AA%E1%83%9D%E1%83%93%E1%83%9C%E1%83%98%E1%83%97">რას ვაკეთებთ ამ ცოდნით</h1>
+<ul>
+<li>ელემენტის selector-ით ვწერთ საერთო, საბაზისო წესებს</li>
+<li><code>class</code>-ით ვწერთ გამონაკლისებს</li>
+<li><code>id</code>-ით გაფორმებას ვერიდებით: მისი „გადაწერა&quot; რთულია</li>
+<li>თუ წესი არ მუშაობს, პირველი ეჭვი cascade-ზე უნდა გვქონდეს</li>
+<li>მეორე ეჭვი — სინტაქსზე: <code>;</code> ან <code>}</code></li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="56" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="devtools--styles-panel">DevTools — Styles panel</h1>
+<ul>
+<li>გახსნა: <kbd>F12</kbd>, ან მარჯვენა ღილაკი → <strong>Inspect</strong></li>
+<li>მარცხნივ <strong>Elements</strong> — გვერდის HTML</li>
+<li>მარჯვნივ <strong>Styles</strong> — იმ ელემენტზე მოქმედი CSS</li>
+<li>ელემენტს ვირჩევთ მარცხნივ, წესებს ვკითხულობთ მარჯვნივ</li>
+<li>ყოველი წესის გვერდით წერია ფაილის სახელი და ხაზის ნომერი</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="57" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%9B%E1%83%9C%E1%83%98%E1%83%A8%E1%83%95%E1%83%9C%E1%83%94%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%A1-%E1%83%A8%E1%83%94%E1%83%AA%E1%83%95%E1%83%9A%E1%83%90-%E1%83%AA%E1%83%9D%E1%83%AA%E1%83%AE%E1%83%9A%E1%83%90%E1%83%93">მნიშვნელობის შეცვლა ცოცხლად</h1>
+<ul>
+<li>Styles-ში მნიშვნელობაზე დააწკაპუნე და ჩაწერე სხვა</li>
+<li>გვერდი იმავე წამში იცვლება</li>
+<li>თითოეულ წესს აქვს checkbox — ის დროებით გამორთავს</li>
+<li>ეს ცვლილება ფაილში <strong>არ</strong> ინახება: განახლებაზე ქრება</li>
+<li>ფერის შესარჩევად იდეალურია: ვცადოთ, მერე ჩავწეროთ ფაილში</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="58" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%92%E1%83%90%E1%83%93%E1%83%90%E1%83%AE%E1%83%90%E1%83%96%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%AC%E1%83%94%E1%83%A1%E1%83%98">გადახაზული წესი</h1>
+<ul>
+<li>გადახაზული (strikethrough) წესი cascade-ში დამარცხდა</li>
+<li>გადახაზული = დაწერილია, მაგრამ არ მოქმედებს</li>
+<li>გამარჯვებული წესი ყოველთვის სიის ზედა ნაწილშია</li>
+<li>სწორედ აქ ჩანს, რატომ „არ მუშაობს&quot; ჩვენი CSS</li>
+<li><strong>Computed</strong> ჩანართი აჩვენებს საბოლოო, ნამდვილ მნიშვნელობას</li>
+</ul>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-marpit-scope-DbakkzKt="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="59" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A1%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%90%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%97%E1%83%98--%E1%83%99%E1%83%9D%E1%83%93%E1%83%98">სრული მაგალითი — კოდი</h1>
+<div class="cols">
+<div>
+<p><code>index.html</code></p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;en&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;UTF-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span>
+          <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;css/style.css&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Riverside Club<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Riverside Club<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;intro&quot;</span>&gt;</span>Two meetings a week.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;card&quot;</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Photo group<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Tuesday, room 9.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;welcome&quot;</span>&gt;</span>New members welcome.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+</div>
+<div>
+<p><code>css/style.css</code></p>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-css"><span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#334155</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fdfcf8</span>;
+}
+
+<span class="hljs-selector-tag">h1</span>,
+<span class="hljs-selector-tag">h2</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#1b5e55</span>;
+}
+
+<span class="hljs-selector-class">.intro</span> {
+  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.25rem</span>;
+}
+
+<span class="hljs-selector-class">.card</span> {
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#eef4f1</span>;
+}
+
+<span class="hljs-selector-id">#welcome</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-number">#b45309</span>;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fff7ed</span>;
+}
+</code></pre>
+</div>
+</div>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" data-marpit-scope-DMBfEiPU="" data-paginate="true" data-theme="gaia" lang="en-US" data-marpit-pagination="60" style="--paginate:true;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="%E1%83%A1%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9B%E1%83%90%E1%83%92%E1%83%90%E1%83%9A%E1%83%98%E1%83%97%E1%83%98--%E1%83%A8%E1%83%94%E1%83%93%E1%83%94%E1%83%92%E1%83%98">სრული მაგალითი — შედეგი</h1>
+<div class="prev" style="color: #334155; background-color: #fdfcf8;">
+<h2 style="color: #1b5e55;">Riverside Club</h2>
+<p style="font-size: 20px;">Two meetings a week.</p>
+<div style="background-color: #eef4f1;">
+<h3 style="color: #1b5e55;">Photo group</h3>
+<p>Tuesday, room 9.</p>
+</div>
+<p style="color: #b45309; background-color: #fff7ed;">New members welcome.</p>
+</div>
+<p>ექვსი წესი — და გვერდი უკვე სხვა გვერდია.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" data-paginate="true" data-class="lead" data-theme="gaia" lang="en-US" class="lead" data-marpit-pagination="61" style="--paginate:true;--class:lead;--theme:gaia;" data-marpit-pagination-total="61">
+<h1 id="selector-property-value">selector, property, value</h1>
+<p>ამ სამი სიტყვით მთელი CSS იწყება</p>
+</section>
+<script>!function(){"use strict";const t={h1:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"1"},style:"display: block; font-size: 2em; margin-block-start: 0.67em; margin-block-end: 0.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h2:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"2"},style:"display: block; font-size: 1.5em; margin-block-start: 0.83em; margin-block-end: 0.83em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h3:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"3"},style:"display: block; font-size: 1.17em; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h4:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"4"},style:"display: block; margin-block-start: 1.33em; margin-block-end: 1.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h5:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"5"},style:"display: block; font-size: 0.83em; margin-block-start: 1.67em; margin-block-end: 1.67em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},h6:{proto:()=>HTMLHeadingElement,attrs:{role:"heading","aria-level":"6"},style:"display: block; font-size: 0.67em; margin-block-start: 2.33em; margin-block-end: 2.33em; margin-inline-start: 0px; margin-inline-end: 0px; font-weight: bold;"},span:{proto:()=>HTMLSpanElement},pre:{proto:()=>HTMLElement,style:"display: block; font-family: monospace; white-space: pre; margin: 1em 0; --marp-auto-scaling-white-space: pre;"}},e="data-marp-auto-scaling-wrapper",i="data-marp-auto-scaling-svg",n="data-marp-auto-scaling-container";class s extends HTMLElement{container;containerSize;containerObserver;svg;svgComputedStyle;svgPreserveAspectRatio="xMinYMid meet";wrapper;wrapperSize;wrapperObserver;constructor(){super();const t=t=>([e])=>{const{width:i,height:n}=e.contentRect;this[t]={width:i,height:n},this.updateSVGRect()};this.attachShadow({mode:"open"}),this.containerObserver=new ResizeObserver(t("containerSize")),this.wrapperObserver=new ResizeObserver((...e)=>{t("wrapperSize")(...e),this.flushSvgDisplay()})}static get observedAttributes(){return["data-downscale-only"]}connectedCallback(){this.shadowRoot.innerHTML=`\n<style>\n  svg[${i}] { display: block; width: 100%; height: auto; vertical-align: top; }\n  span[${n}] { display: table; white-space: var(--marp-auto-scaling-white-space, nowrap); width: max-content; }\n</style>\n<div ${e}>\n  <svg part="svg" ${i}>\n    <foreignObject><span ${n}><slot></slot></span></foreignObject>\n  </svg>\n</div>\n    `.split(/\n\s*/).join(""),this.wrapper=this.shadowRoot.querySelector(`div[${e}]`)??void 0;const t=this.svg;this.svg=this.wrapper?.querySelector(`svg[${i}]`)??void 0,this.svg!==t&&(this.svgComputedStyle=this.svg?window.getComputedStyle(this.svg):void 0),this.container=this.svg?.querySelector(`span[${n}]`)??void 0,this.observe()}disconnectedCallback(){this.svg=void 0,this.svgComputedStyle=void 0,this.wrapper=void 0,this.container=void 0,this.observe()}attributeChangedCallback(){this.observe()}flushSvgDisplay(){const{svg:t}=this;t&&(t.style.display="inline",requestAnimationFrame(()=>{t.style.display=""}))}observe(){this.containerObserver.disconnect(),this.wrapperObserver.disconnect(),this.wrapper&&this.wrapperObserver.observe(this.wrapper),this.container&&this.containerObserver.observe(this.container),this.svgComputedStyle&&this.observeSVGStyle(this.svgComputedStyle)}observeSVGStyle(t){const e=()=>{const i=(()=>{const e=t.getPropertyValue("--preserve-aspect-ratio");if(e)return e.trim();return`x${(({textAlign:t,direction:e})=>{if(t.endsWith("left"))return"Min";if(t.endsWith("right"))return"Max";if("start"===t||"end"===t){let i="rtl"===e;return"end"===t&&(i=!i),i?"Max":"Min"}return"Mid"})(t)}YMid meet`})();i!==this.svgPreserveAspectRatio&&(this.svgPreserveAspectRatio=i,this.updateSVGRect()),t===this.svgComputedStyle&&requestAnimationFrame(e)};e()}updateSVGRect(){let t=Math.ceil(this.containerSize?.width??0);const e=Math.ceil(this.containerSize?.height??0);void 0!==this.dataset.downscaleOnly&&(t=Math.max(t,this.wrapperSize?.width??0));const i=this.svg?.querySelector(":scope > foreignObject");if(i?.setAttribute("width",`${t}`),i?.setAttribute("height",`${e}`),this.svg&&(this.svg.setAttribute("viewBox",`0 0 ${t} ${e}`),this.svg.setAttribute("preserveAspectRatio",this.svgPreserveAspectRatio),this.svg.style.height=t<=0||e<=0?"0":""),this.container){const t=this.svgPreserveAspectRatio.toLowerCase();this.container.style.marginLeft=t.startsWith("xmid")||t.startsWith("xmax")?"auto":"0",this.container.style.marginRight=t.startsWith("xmi")?"auto":"0"}}}const r=(t,{attrs:e={},style:i})=>class extends t{constructor(...t){super(...t);for(const[t,i]of Object.entries(e))this.hasAttribute(t)||this.setAttribute(t,i);this._shadow()}static get observedAttributes(){return["data-auto-scaling"]}connectedCallback(){this._update()}attributeChangedCallback(){this._update()}_shadow(){if(!this.shadowRoot)try{this.attachShadow({mode:"open"})}catch(t){if(!(t instanceof Error&&"NotSupportedError"===t.name))throw t}return this.shadowRoot}_update(){const t=this._shadow();if(t){const e=i?`<style>:host { ${i} }</style>`:"";let n="<slot></slot>";const{autoScaling:s}=this.dataset;if(void 0!==s){n=`<marp-auto-scaling exportparts="svg:auto-scaling" ${"downscale-only"===s?"data-downscale-only":""}>${n}</marp-auto-scaling>`}t.innerHTML=e+n}}};let o;const a=()=>o??(o=!!document.createElement("div",{is:"marp-auto-scaling"}).outerHTML.startsWith("<div is"),o),l=Symbol();let c;const d="marpitSVGPolyfill:setZoomFactor,",h=Symbol(),g=Symbol();const p=()=>{const t="Apple Computer, Inc."===navigator.vendor,e=t?[v]:[],i={then:e=>(t?(async()=>{if(void 0===c){const t=document.createElement("canvas");t.width=10,t.height=10;const e=t.getContext("2d"),i=new Image(10,10),n=new Promise(t=>{i.addEventListener("load",()=>t())});i.crossOrigin="anonymous",i.src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%201%201%22%3E%3CforeignObject%20width%3D%221%22%20height%3D%221%22%20requiredExtensions%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%3E%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22width%3A%201px%3B%20height%3A%201px%3B%20background%3A%20red%3B%20position%3A%20relative%22%3E%3C%2Fdiv%3E%3C%2FforeignObject%3E%3C%2Fsvg%3E",await n,e.drawImage(i,0,0),c=e.getImageData(5,5,1,1).data[3]<128}return c})().then(t=>{null==e||e(t?[v]:[])}):null==e||e([]),i)};return Object.assign(e,i)};let m,u;function v(t){const e="object"==typeof t&&t.target||document,i="object"==typeof t?t.zoom:t;window[g]||(Object.defineProperty(window,g,{configurable:!0,value:!0}),document.body.style.zoom=1.0001,document.body.offsetHeight,document.body.style.zoom=1,window.addEventListener("message",({data:t,origin:e})=>{if(e===window.origin)try{if(t&&"string"==typeof t&&t.startsWith(d)){const[,e]=t.split(","),i=Number.parseFloat(e);Number.isNaN(i)||(u=i)}}catch(t){console.error(t)}}));let n=!1;Array.from(e.querySelectorAll("svg[data-marpit-svg]"),t=>{var e,s,r,o;t.style.transform||(t.style.transform="translateZ(0)");const a=i||u||t.currentScale||1;m!==a&&(m=a,n=a);const l=t.getBoundingClientRect(),{length:c}=t.children;for(let i=0;i<c;i+=1){const n=t.children[i];if(n.getScreenCTM){const t=n.getScreenCTM();if(t){const i=null!==(s=null===(e=n.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==s?s:0,c=null!==(o=null===(r=n.y)||void 0===r?void 0:r.baseVal.value)&&void 0!==o?o:0,d=n.children.length;for(let e=0;e<d;e+=1){const s=n.children[e];if("SECTION"===s.tagName){const{style:e}=s;e.transformOrigin||(e.transformOrigin=`${-i}px ${-c}px`),e.transform=`scale(${a}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-l.left}, ${t.f-l.top}) translateZ(0.0001px)`;break}}}}}}),!1!==n&&Array.from(e.querySelectorAll("iframe"),({contentWindow:t})=>{null==t||t.postMessage(`${d}${n}`,"null"===window.origin?"*":window.origin)})}function w({once:t=!1,target:e=document}={}){const i=function(t=document){if(t[h])return t[h];let e=!0;const i=()=>{e=!1,delete t[h]};Object.defineProperty(t,h,{configurable:!0,value:i});let n=[],s=!1;(async()=>{try{n=await p()}finally{s=!0}})();const r=()=>{for(const e of n)e({target:t});s&&0===n.length||e&&window.requestAnimationFrame(r)};return r(),i}(e);return t?(i(),()=>{}):i}m=1,u=void 0;const b=Symbol(),y=(e=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(((e=document)=>{const i=window[l];i||customElements.define("marp-auto-scaling",s);for(const n of Object.keys(t)){const s=`marp-${n}`,o=t[n].proto();a()&&o!==HTMLElement?i||customElements.define(s,r(o,{style:t[n].style}),{extends:n}):(i||customElements.define(s,r(HTMLElement,t[n])),e.querySelectorAll(`${n}[is="${s}"]`).forEach(t=>{t.outerHTML=t.outerHTML.replace(new RegExp(`^<${n}`,"i"),`<${s}`).replace(new RegExp(`</${n}>$`,"i"),`</${s}>`)}))}window[l]=!0})(e),e[b])return e[b];const i=w({target:e}),n=()=>{i(),delete e[b]},o=Object.assign(n,{cleanup:n,update:()=>y(e)});return Object.defineProperty(e,b,{configurable:!0,value:o}),o},f=document.currentScript;y(f?f.getRootNode():document)}();
+</script></foreignObject></svg></div><div class="bespoke-marp-note" data-index="0" tabindex="0"><p>შენიშვნა: ამ ფაილში rendered preview-ები დაწერილია inline HTML-ით და
+slide-ზე მიბმული &lt;style scoped&gt; ბლოკებით. რომ ისინი გამოჩნდეს,
+VS Code-ის პარამეტრებში ჩართეთ:
+&quot;markdown.marp.enableHtml&quot;: true
+(პროექტის .vscode/settings.json-ში უკვე ჩაწერილია &quot;markdown.marp.html&quot;: &quot;all&quot;)</p></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@4.5.0/lib/bespoke.js.LICENSE.txt */
+!function(){"use strict";function e(e){return e&&e.__esModule&&Object.prototype.hasOwnProperty.call(e,"default")?e.default:e}var t,n,r=(n||(n=1,t={from:function(e,t){var n,r=1===(e.parent||e).nodeType?e.parent||e:document.querySelector(e.parent||e),o=[].filter.call("string"==typeof e.slides?r.querySelectorAll(e.slides):e.slides||r.children,function(e){return"SCRIPT"!==e.nodeName}),i={},a=function(e,t){return(t=t||{}).index=o.indexOf(e),t.slide=e,t},s=function(e,t){i[e]=(i[e]||[]).filter(function(e){return e!==t})},l=function(e,t){return(i[e]||[]).reduce(function(e,n){return e&&!1!==n(t)},!0)},c=function(e,t){o[e]&&(n&&l("deactivate",a(n,t)),n=o[e],l("activate",a(n,t)))},d=function(e,t){var r=o.indexOf(n)+e;l(e>0?"next":"prev",a(n,t))&&c(r,t)},u={off:s,on:function(e,t){return(i[e]||(i[e]=[])).push(t),s.bind(null,e,t)},fire:l,slide:function(e,t){if(!arguments.length)return o.indexOf(n);l("slide",a(o[e],t))&&c(e,t)},next:d.bind(null,1),prev:d.bind(null,-1),parent:r,slides:o,destroy:function(e){l("destroy",a(n,e)),i={}}};return(t||[]).forEach(function(e){e(u)}),n||c(0),u}}),t),o=e(r);const i=document.body,a=(...e)=>history.replaceState(...e),s="",l="presenter",c="next",d="overview",u=["",l,d,c],f="bespoke-marp-",m=`data-${f}`,g=(e,{protocol:t,host:n,pathname:r,hash:o}=location)=>{const i=e.toString();return`${t}//${n}${r}${i?"?":""}${i}${o}`},p=()=>i.dataset.bespokeView,v=e=>new URLSearchParams(location.search).get(e),h=(e,t={})=>{const n={location,setter:a,...t},r=new URLSearchParams(n.location.search);for(const t of Object.keys(e)){const n=e[t];"string"==typeof n?r.set(t,n):r.delete(t)}try{n.setter({...window.history.state??{}},"",g(r,n.location))}catch(e){console.error(e)}},w=(()=>{const e="bespoke-marp";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch{return!1}})(),y=e=>{try{return localStorage.getItem(e)}catch{return null}},b=(e,t)=>{try{return localStorage.setItem(e,t),!0}catch{return!1}},k=e=>{try{return localStorage.removeItem(e),!0}catch{return!1}},x=(e,t)=>{const n="aria-hidden";t?e.setAttribute(n,"true"):e.removeAttribute(n)},E=e=>{e.parent.classList.add(`${f}parent`),e.slides.forEach(e=>e.classList.add(`${f}slide`)),e.on("activate",t=>{const n=`${f}active`,r=t.slide,o=r.classList,i=!o.contains(n);if(e.slides.forEach(e=>{e.classList.remove(n),x(e,!0)}),o.add(n),x(r,!1),i){const e=`${n}-ready`;o.add(e),document.body.clientHeight,o.remove(e)}})},$=e=>{let t=0,n=0;Object.defineProperty(e,"fragments",{enumerable:!0,value:e.slides.map(e=>[null,...e.querySelectorAll("[data-marpit-fragment]")])});const r=r=>void 0!==e.fragments[t][n+r],o=(r,o)=>{t=r,n=o,e.fragments.forEach((e,t)=>{e.forEach((e,n)=>{if(null==e)return;const i=t<r||t===r&&n<=o;e.setAttribute(`${m}fragment`,(i?"":"in")+"active");const a=`${m}current-fragment`;t===r&&n===o?e.setAttribute(a,"current"):e.removeAttribute(a)})}),e.fragmentIndex=o;const i={slide:e.slides[r],index:r,fragments:e.fragments[r],fragmentIndex:o};e.fire("fragment",i)};e.on("next",({fragment:i=!0})=>{if(i){if(r(1))return o(t,n+1),!1;const i=t+1;e.fragments[i]&&o(i,0)}else{const r=e.fragments[t].length;if(n+1<r)return o(t,r-1),!1;const i=e.fragments[t+1];i&&o(t+1,i.length-1)}}),e.on("prev",({fragment:i=!0})=>{if(r(-1)&&i)return o(t,n-1),!1;const a=t-1;e.fragments[a]&&o(a,e.fragments[a].length-1)}),e.on("slide",({index:t,fragment:n})=>{let r=0;if(void 0!==n){const o=e.fragments[t];if(o){const{length:e}=o;r=-1===n?e-1:Math.min(Math.max(n,0),e-1)}}o(t,r)}),o(0,0)},L=document,S=()=>!(!L.fullscreenEnabled&&!L.webkitFullscreenEnabled),P=()=>!(!L.fullscreenElement&&!L.webkitFullscreenElement),_=e=>{e.fullscreen=()=>{S()&&(async()=>{P()?(L.exitFullscreen||L.webkitExitFullscreen)?.call(L):((e=L.body)=>{(e.requestFullscreen||e.webkitRequestFullscreen)?.call(e)})()})()},document.addEventListener("keydown",t=>{"f"!==t.key&&"F11"!==t.key||t.altKey||t.ctrlKey||t.metaKey||!S()||(e.fullscreen(),t.preventDefault())})},O=`${f}inactive`,T=(e=2e3)=>({parent:t,fire:n})=>{const r=t.classList,o=e=>n(`marp-${e?"":"in"}active`);let i;const a=()=>{i&&clearTimeout(i),i=setTimeout(()=>{r.add(O),o()},e),r.contains(O)&&(r.remove(O),o(!0))};for(const e of["mousedown","mousemove","touchend"])document.addEventListener(e,a);setTimeout(a,0)},I=["AUDIO","BUTTON","INPUT","SELECT","TEXTAREA","VIDEO"],M=e=>{e.parent.addEventListener("keydown",e=>{if(!e.target)return;const t=e.target;(I.includes(t.nodeName)||"true"===t.contentEditable)&&e.stopPropagation()})},A=e=>{window.addEventListener("load",()=>{for(const t of e.slides){const e=t.querySelector("marp-auto-scaling, [data-auto-scaling], [data-marp-fitting]");t.setAttribute(`${m}load`,e?"":"hideable")}})},C=({interval:e=250}={})=>t=>{document.addEventListener("keydown",e=>{if(" "===e.key&&e.shiftKey)t.prev();else if("ArrowLeft"===e.key||"ArrowUp"===e.key||"PageUp"===e.key)t.prev({fragment:!e.shiftKey});else if(" "!==e.key||e.shiftKey)if("ArrowRight"===e.key||"ArrowDown"===e.key||"PageDown"===e.key)t.next({fragment:!e.shiftKey});else if("End"===e.key)t.slide(t.slides.length-1,{fragment:-1});else{if("Home"!==e.key)return;t.slide(0)}else t.next();e.preventDefault()});let n,r,o=0;t.parent.addEventListener("wheel",i=>{let a=!1;const s=(e,t)=>{e&&(a=a||((e,t)=>((e,t)=>{const n="X"===t?"Width":"Height";return e[`client${n}`]<e[`scroll${n}`]})(e,t)&&((e,t)=>{const{overflow:n}=e,r=e[`overflow${t}`];return"auto"===n||"scroll"===n||"auto"===r||"scroll"===r})(getComputedStyle(e),t))(e,t)),e?.parentElement&&s(e.parentElement,t)};if(0!==i.deltaX&&s(i.target,"X"),0!==i.deltaY&&s(i.target,"Y"),a)return;i.preventDefault();const l=Math.sqrt(i.deltaX**2+i.deltaY**2);if(void 0!==i.wheelDelta){if(void 0===i.webkitForce&&Math.abs(i.wheelDelta)<40)return;if(i.deltaMode===i.DOM_DELTA_PIXEL&&l<4)return}else if(i.deltaMode===i.DOM_DELTA_PIXEL&&l<12)return;r&&clearTimeout(r),r=setTimeout(()=>{n=0},e);const c=Date.now()-o<e,d=l<=n;if(n=l,c||d)return;let u;(i.deltaX>0||i.deltaY>0)&&(u="next"),(i.deltaX<0||i.deltaY<0)&&(u="prev"),u&&(t[u](),o=Date.now())})},D=(e=`.${f}osc`)=>{const t=document.querySelector(e);if(!t)return()=>{};const n=(e,n)=>{t.querySelectorAll(`[${m}osc=${JSON.stringify(e)}]`).forEach(n)};if(S()||n("fullscreen",e=>e.style.display="none"),!w){const e=(e,t)=>{e.disabled=!0,e.title=`${t} is disabled due to restricted localStorage.`};n("presenter",t=>e(t,"Presenter view")),n("overview",t=>e(t,"Overview view"))}return e=>{t.addEventListener("click",t=>{if(t.target instanceof HTMLElement){const{bespokeMarpOsc:n}=t.target.dataset;n&&t.target.blur();const r={fragment:!t.shiftKey};"next"===n?e.next(r):"prev"===n?e.prev(r):"fullscreen"===n?e?.fullscreen():"presenter"===n?e.openPresenterView():"overview"===n&&e.toggleOverviewView()}}),e.parent.appendChild(t),e.on("activate",({index:t})=>{n("page",n=>n.textContent=`Page ${t+1} of ${e.slides.length}`)}),e.on("fragment",({index:t,fragments:r,fragmentIndex:o})=>{n("prev",e=>e.disabled=0===t&&0===o),n("next",n=>n.disabled=t===e.slides.length-1&&o===r.length-1)}),e.on("marp-active",()=>x(t,!1)),e.on("marp-inactive",()=>x(t,!0)),S()&&(e=>{for(const t of["","webkit"])L.addEventListener(t+"fullscreenchange",e)})(()=>n("fullscreen",e=>e.classList.toggle("exit",S()&&P())))}},N=e=>{if(e.syncKey&&"string"==typeof e.syncKey)return!0;throw new Error("The current instance of Bespoke.js is incompatible with Marp bespoke sync plugin.")},B=(e={})=>{const t=e.key||window.history.state?.marpBespokeSyncKey||Math.random().toString(36).slice(2),n=`bespoke-marp-sync-${t}`;var r;r={marpBespokeSyncKey:t},h({},{setter:(e,...t)=>a({...e,...r},...t)});const o=()=>{const e=y(n);return e?JSON.parse(e):Object.create(null)},i=e=>{const t=o(),r={...t,...e(t)};return b(n,JSON.stringify(r)),r},s=()=>{window.removeEventListener("pageshow",s),i(e=>({reference:(e.reference||0)+1}))};return e=>{s(),Object.defineProperty(e,"syncKey",{value:t,enumerable:!0});let r=!0;setTimeout(()=>{e.on("fragment",e=>{r&&i(()=>({index:e.index,fragmentIndex:e.fragmentIndex}))})},0),window.addEventListener("storage",t=>{if(t.key===n&&t.oldValue&&t.newValue){const n=JSON.parse(t.oldValue),o=JSON.parse(t.newValue);if(n.index!==o.index||n.fragmentIndex!==o.fragmentIndex)try{r=!1,e.slide(o.index,{fragment:o.fragmentIndex,forSync:!0})}finally{r=!0}}});const a=()=>{const{reference:e}=o();void 0===e||e<=1?k(n):i(()=>({reference:e-1}))};window.addEventListener("pagehide",e=>{e.persisted&&window.addEventListener("pageshow",s),a()}),e.on("destroy",a)}},K=e=>{w&&document.addEventListener("keydown",t=>{("o"!==t.key||t.altKey||t.ctrlKey||t.metaKey)&&"Escape"!==t.key||(t.preventDefault(),e())})};let q=null;const V=({closeOnSelect:e=!0}={})=>t=>{N(t);const n=n=>{const r=(()=>{if(!q||!q.isConnected){q=document.createElement("div"),q.className=`${f}overview`,q.inert=!0;const n=document.createElement("iframe");n.src=(()=>{const n=new URLSearchParams(location.search);return n.set("view","overview"),n.set("sync",t.syncKey),e&&n.set("closeOnSelect","1"),g(n)})(),q.append(n),document.body.append(q)}return q})(),o=n??!r.dataset.open;setTimeout(()=>{if(r.dataset.open=o?"1":"",r.inert=!o,t.skipTransition=o,o){const e=r.querySelector("iframe");try{e?.contentWindow?.focus()}catch{e?.focus()}}else window.focus()},0)};Object.defineProperties(t,{toggleOverviewView:{enumerable:!0,value:n}}),window.addEventListener("message",e=>{e.origin===window.origin&&"closeOverview"===e.data&&n(!1)}),K(n)},j=e=>{const{title:t}=document;document.title="[Overview]"+(t?` - ${t}`:"");const n=!!v("closeOnSelect"),r=()=>{window.parent.postMessage("closeOverview","null"===window.origin?"*":window.origin)};if(e.slides.forEach((t,o)=>{t.tabIndex=0;const i=()=>{e.slide(o,{fragment:-1}),n&&r()};t.addEventListener("click",i),t.addEventListener("keydown",e=>{"Enter"!==e.key&&" "!==e.key||(e.preventDefault(),i())})}),window.addEventListener("keydown",t=>{const n=e.slide(),r=t=>{const r=t=>{const n=e.slides[t].getBoundingClientRect();return[Math.round((n.left+n.right)/2),Math.round((n.top+n.bottom)/2)]};let o=null,i=n;do{const e=r(i);if(o){if(Math.abs(e[0]-o[0])<2)return i}else o=e;i+=t}while(i>=0&&i<e.slides.length);return n};if("ArrowLeft"===t.key)e.slide(Math.max(n-1,0),{fragment:-1});else if("ArrowRight"===t.key)e.slide(Math.min(n+1,e.slides.length-1),{fragment:-1});else if("ArrowUp"===t.key)e.slide(r(-1),{fragment:-1});else if("ArrowDown"===t.key)e.slide(r(1),{fragment:-1});else if("End"===t.key)e.slide(e.slides.length-1,{fragment:-1});else{if("Home"!==t.key)return;e.slide(0,{fragment:-1})}t.preventDefault();const o=e.slide();e.slides[o]?.focus?.(),e.slides[o]?.scrollIntoView?.({behavior:"smooth",block:"nearest"})}),e.on("slide",({index:t})=>{e.slides[t]?.scrollIntoView?.({behavior:"smooth",block:"nearest"})}),window.parent!==window){K(r);const e=document.createElement("header");e.className=`${f}overview-header`;const t=document.createElement("button");t.className=`${f}overview-close`,t.type="button",t.title="Close overview",t.textContent=t.title,t.addEventListener("click",r),e.append(t),document.body.prepend(e)}},F=()=>{const e=p();return{[s]:V(),[l]:V({closeOnSelect:!1}),[d]:j}[e]},U=e=>{window.addEventListener("message",t=>{if(t.origin!==window.origin)return;const[n,r]=t.data.split(":");if("navigate"===n){const[t,n]=r.split(",");let o=Number.parseInt(t,10),i=Number.parseInt(n,10)+1;i>=e.fragments[o].length&&(o+=1,i=0),e.slide(o,{fragment:i})}})};var R,X,H,W,J,Y,z,G={exports:{}},Q=(R||(R=1,G.exports=(X=["area","base","br","col","command","embed","hr","img","input","keygen","link","meta","param","source","track","wbr"],H=function(e){return String(e).replace(/[&<>"']/g,function(e){return"&"+W[e]+";"})},W={"&":"amp","<":"lt",">":"gt",'"':"quot","'":"apos"},J="dangerouslySetInnerHTML",Y={className:"class",htmlFor:"for"},z={},function(e,t){var n=[],r="";t=t||{};for(var o=arguments.length;o-- >2;)n.push(arguments[o]);if("function"==typeof e)return t.children=n.reverse(),e(t);if(e){if(r+="<"+e,t)for(var i in t)!1!==t[i]&&null!=t[i]&&i!==J&&(r+=" "+(Y[i]?Y[i]:H(i))+'="'+H(t[i])+'"');r+=">"}if(-1===X.indexOf(e)){if(t[J])r+=t[J].__html;else for(;n.length;){var a=n.pop();if(a)if(a.pop)for(var s=a.length;s--;)n.push(a[s]);else r+=!0===z[a]?a:H(a)}r+=e?"</"+e+">":""}return z[r]=!0,r})),G.exports),Z=e(Q);const ee=({children:e})=>Z(null,null,...e),te=`${f}presenter-`,ne={container:`${te}container`,dragbar:`${te}dragbar-container`,next:`${te}next`,nextContainer:`${te}next-container`,noteContainer:`${te}note-container`,noteWrapper:`${te}note-wrapper`,noteButtons:`${te}note-buttons`,infoContainer:`${te}info-container`,infoPageArea:`${te}info-page-area`,infoPage:`${te}info-page`,infoPagePrev:`${te}info-page-prev`,infoPageNext:`${te}info-page-next`,noteButtonsBigger:`${te}note-bigger`,noteButtonsSmaller:`${te}note-smaller`,infoTime:`${te}info-time`,infoTimer:`${te}info-timer`},re=e=>{const{title:t}=document;document.title="[Presenter view]"+(t?` - ${t}`:"");const n={},r=e=>(n[e]=n[e]||document.querySelector(`.${e}`),n[e]);document.body.appendChild((e=>{const t=document.createElement("div");return t.className=ne.container,t.appendChild(e),t.insertAdjacentHTML("beforeend",Z(ee,null,Z("div",{class:ne.nextContainer},Z("iframe",{class:ne.next,src:"?view=next"})),Z("div",{class:ne.dragbar}),Z("div",{class:ne.noteContainer},Z("div",{class:ne.noteWrapper}),Z("div",{class:ne.noteButtons},Z("button",{class:ne.noteButtonsSmaller,tabindex:"-1",title:"Smaller notes font size"},"Smaller notes font size"),Z("button",{class:ne.noteButtonsBigger,tabindex:"-1",title:"Bigger notes font size"},"Bigger notes font size"))),Z("div",{class:ne.infoContainer},Z("div",{class:ne.infoPageArea},Z("button",{class:ne.infoPagePrev,tabindex:"-1",title:"Previous"},"Previous"),Z("button",{class:ne.infoPage}),Z("button",{class:ne.infoPageNext,tabindex:"-1",title:"Next"},"Next")),Z("time",{class:ne.infoTime,title:"Current time"}),Z("time",{class:ne.infoTimer,title:"Timer"})))),t})(e.parent)),(e=>{let t=!1;r(ne.dragbar).addEventListener("mousedown",()=>{t=!0,r(ne.dragbar).classList.add("active")}),window.addEventListener("mouseup",()=>{t=!1,r(ne.dragbar).classList.remove("active")}),window.addEventListener("mousemove",e=>{if(!t)return;const n=e.clientX/document.documentElement.clientWidth*100;r(ne.container).style.setProperty("--bespoke-marp-presenter-split-ratio",`${Math.max(0,Math.min(100,n))}%`)}),r(ne.nextContainer).addEventListener("click",()=>e.next());const n=r(ne.next),o=(i=n,(e,t)=>i.contentWindow?.postMessage(`navigate:${e},${t}`,"null"===window.origin?"*":window.origin));var i;n.addEventListener("load",()=>{r(ne.nextContainer).classList.add("active"),o(e.slide(),e.fragmentIndex),e.on("fragment",({index:e,fragmentIndex:t})=>o(e,t))});const a=document.querySelectorAll(".bespoke-marp-note");a.forEach(e=>{e.addEventListener("keydown",e=>e.stopPropagation()),r(ne.noteWrapper).appendChild(e)}),e.on("activate",()=>a.forEach(t=>t.classList.toggle("active",t.dataset.index==e.slide())));let s=0;const l=e=>{s=Math.max(-5,s+e),r(ne.noteContainer).style.setProperty("--bespoke-marp-note-font-scale",(1.2**s).toFixed(4))},c=()=>l(1),d=()=>l(-1),u=r(ne.noteButtonsBigger),f=r(ne.noteButtonsSmaller);u.addEventListener("click",()=>{u.blur(),c()}),f.addEventListener("click",()=>{f.blur(),d()}),document.addEventListener("keydown",e=>{"+"===e.key&&c(),"-"===e.key&&d()},!0);const m=r(ne.infoPage);e.on("activate",({index:t})=>{m.textContent=`${t+1} / ${e.slides.length}`}),m.addEventListener("click",()=>{m.blur(),e.toggleOverviewView()});const g=r(ne.infoPagePrev),p=r(ne.infoPageNext);g.addEventListener("click",t=>{g.blur(),e.prev({fragment:!t.shiftKey})}),p.addEventListener("click",t=>{p.blur(),e.next({fragment:!t.shiftKey})}),e.on("fragment",({index:t,fragments:n,fragmentIndex:r})=>{g.disabled=0===t&&0===r,p.disabled=t===e.slides.length-1&&r===n.length-1});let v=new Date;const h=()=>{const e=new Date,t=e=>`${Math.floor(e)}`.padStart(2,"0"),n=e.getTime()-v.getTime(),o=t(n/1e3%60),i=t(n/1e3/60%60),a=t(n/36e5%24);r(ne.infoTime).textContent=e.toLocaleTimeString(),r(ne.infoTimer).textContent=`${a}:${i}:${o}`};h(),setInterval(h,250),r(ne.infoTimer).addEventListener("click",()=>{v=new Date})})(e)},oe=e=>{N(e),Object.defineProperties(e,{openPresenterView:{enumerable:!0,value:ie},presenterUrl:{enumerable:!0,get:ae}}),w&&document.addEventListener("keydown",t=>{"p"!==t.key||t.altKey||t.ctrlKey||t.metaKey||(t.preventDefault(),e.openPresenterView())})};function ie(){const{max:e,floor:t}=Math,n=e(t(.85*window.innerWidth),640),r=e(t(.85*window.innerHeight),360);return window.open(this.presenterUrl,te+this.syncKey,`width=${n},height=${r},menubar=no,toolbar=no`)}function ae(){const e=new URLSearchParams(location.search);return e.set("view","presenter"),e.set("sync",this.syncKey),g(e)}const se=e=>{const t=p();return t===c&&e.appendChild(document.createElement("span")),{[s]:oe,[l]:re,[c]:U}[t]},le=e=>{e.on("activate",t=>{document.querySelectorAll(".bespoke-progress-parent > .bespoke-progress-bar").forEach(n=>{n.style.flexBasis=100*t.index/(e.slides.length-1)+"%"})})},ce=e=>{const t=Number.parseInt(e,10);return Number.isNaN(t)?null:t},de=(e={})=>{const t={history:!0,...e};return e=>{let n=!0;const r=e=>{const t=n;try{return n=!0,e()}finally{n=t}},o=(t={fragment:!0})=>{let n=t.fragment?ce(v("f")||""):null;((t,n)=>{const{min:r,max:o}=Math,{fragments:i,slides:a}=e,s=o(0,r(t,a.length-1)),l=o(0,r(n||0,i[s].length-1));s===e.slide()&&l===e.fragmentIndex||e.slide(s,{fragment:l})})((()=>{if(location.hash){const[t]=location.hash.slice(1).split(":~:");if(/^\d+$/.test(t))return(ce(t)??1)-1;const r=document.getElementById(t)||document.querySelector(`a[name="${CSS.escape(t)}"]`);if(r){const{length:t}=e.slides;for(let o=0;o<t;o+=1)if(e.slides[o].contains(r)){const t=e.fragments?.[o],i=r.closest("[data-marpit-fragment]");if(t&&i){const e=t.indexOf(i);e>=0&&(n=e)}return o}}}return 0})(),n)};e.on("fragment",({index:e,fragmentIndex:r})=>{n||h({f:0===r||r.toString()},{location:{...location,hash:`#${e+1}`},setter:(...e)=>t.history?history.pushState(...e):history.replaceState(...e)})}),setTimeout(()=>{o(),window.addEventListener("hashchange",()=>r(()=>{o({fragment:!1}),h({f:void 0})})),window.addEventListener("popstate",()=>{n||r(()=>o())}),n=!1},0)}},{PI:ue,abs:fe,sqrt:me,atan2:ge}=Math,pe={passive:!0},ve=({slope:e=-.7,swipeThreshold:t=30}={})=>n=>{let r;const o=n.parent,i=e=>{const t=o.getBoundingClientRect();return{x:e.pageX-(t.left+t.right)/2,y:e.pageY-(t.top+t.bottom)/2}};o.addEventListener("touchstart",({touches:e})=>{r=1===e.length?i(e[0]):void 0},pe),o.addEventListener("touchmove",e=>{if(r)if(1===e.touches.length){e.preventDefault();const t=i(e.touches[0]),n=t.x-r.x,o=t.y-r.y;r.delta=me(fe(n)**2+fe(o)**2),r.radian=ge(n,o)}else r=void 0}),o.addEventListener("touchend",o=>{if(r){if(r.delta&&r.delta>=t&&r.radian){const t=(r.radian-e+ue)%(2*ue)-ue;n[t<0?"next":"prev"](),o.stopPropagation()}r=void 0}},pe)},he=new Map;he.clear(),he.set("none",{backward:{both:void 0,incoming:void 0,outgoing:void 0},forward:{both:void 0,incoming:void 0,outgoing:void 0}});const we={both:"",outgoing:"outgoing-",incoming:"incoming-"},ye={forward:"",backward:"-backward"},be=e=>`--marp-bespoke-transition-animation-${e}`,ke=e=>`--marp-transition-${e}`,xe=be("name"),Ee=be("duration"),$e=e=>new Promise(t=>{const n={},r=document.createElement("div"),o=e=>{r.remove(),t(e)};r.addEventListener("animationstart",()=>o(n)),Object.assign(r.style,{animationName:e,animationDuration:"1s",animationFillMode:"both",animationPlayState:"paused",position:"absolute",pointerEvents:"none"}),document.body.appendChild(r);const i=getComputedStyle(r).getPropertyValue(ke("duration"));i&&Number.parseFloat(i)>=0&&(n.defaultDuration=i),((e,t)=>{requestAnimationFrame(()=>{e.style.animationPlayState="running",requestAnimationFrame(()=>t(void 0))})})(r,o)}),Le=async e=>he.has(e)?he.get(e):(e=>{const t={},n=[];for(const[r,o]of Object.entries(we))for(const[i,a]of Object.entries(ye)){const s=`marp-${o}transition${a}-${e}`;n.push($e(s).then(e=>{t[i]=t[i]||{},t[i][r]=e?{...e,name:s}:void 0}))}return Promise.all(n).then(()=>t)})(e).then(t=>(he.set(e,t),t)),Se=e=>Object.values(e).flatMap(Object.values).every(e=>!e),Pe=(e,{type:t,backward:n})=>{const r=e[n?"backward":"forward"],o=(()=>{const e=r[t],n=e=>({[xe]:e.name});if(e)return n(e);if(r.both){const e=n(r.both);return"incoming"===t&&(e[be("direction")]="reverse"),e}})();return!o&&n?Pe(e,{type:t,backward:!1}):o||{[xe]:"__bespoke_marp_transition_no_animation__"}},_e=e=>{if(e)try{const t=JSON.parse(e);if((e=>{if("object"!=typeof e)return!1;const t=e;return"string"==typeof t.name&&(void 0===t.duration||"string"==typeof t.duration)})(t))return t}catch{}},Oe="_tSId",Te="_tA",Ie="bespoke-marp-transition-warming-up",Me=window.matchMedia("(prefers-reduced-motion: reduce)"),Ae="__bespoke_marp_transition_reduced_outgoing__",Ce="__bespoke_marp_transition_reduced_incoming__",De={forward:{both:void 0,incoming:{name:Ce},outgoing:{name:Ae}},backward:{both:void 0,incoming:{name:Ce},outgoing:{name:Ae}}},Ne=e=>{if(!document.startViewTransition)return;const t=t=>(void 0!==t&&(e._tD=t),e._tD);let n;t(!1),((...e)=>{CSS.registerProperty({name:ke("duration"),syntax:"<time>",inherits:!0,initialValue:"-1s"});const t=[...new Set(e).values()];return Promise.all(t.map(e=>Le(e))).then()})(...Array.from(document.querySelectorAll("section[data-transition], section[data-transition-back]")).flatMap(e=>[e.dataset.transition,e.dataset.transitionBack].flatMap(e=>{const t=_e(e);return[t?.name,t?.builtinFallback?`__builtin__${t.name}`:void 0]}).filter(e=>!!e))).then(()=>{document.querySelectorAll("style").forEach(e=>{e.innerHTML=e.innerHTML.replace(/--marp-transition-duration:[^;}]*[;}]/g,e=>e.slice(0,-1)+"!important"+e.slice(-1))})});const r=(n,{back:r,cond:o})=>i=>{const a=t();if(a)return!!i[Te]||!("object"!=typeof a||(a.skipTransition(),!i.forSync));if(e.skipTransition)return!0;if(!o(i))return!0;const s=e.slides[e.slide()],l=()=>i.back??r,c="data-transition"+(l()?"-back":""),d=s.querySelector(`section[${c}]`);if(!d)return!0;const u=_e(d.getAttribute(c)??void 0);return!u||((async(e,{builtinFallback:t=!0}={})=>{let n=await Le(e);if(Se(n)){if(!t)return;return n=await Le(`__builtin__${e}`),Se(n)?void 0:n}return n})(u.name,{builtinFallback:u.builtinFallback}).then(e=>{if(!e){t(!0);try{n(i)}finally{t(!1)}return}let r=e;Me.matches&&(console.warn("Use a constant animation to transition because preferring reduced motion by viewer has detected."),r=De);const o=document.getElementById(Oe);o&&o.remove();const a=document.createElement("style");a.id=Oe,document.head.appendChild(a),((e,t)=>{const n=[`:root{${ke("direction")}:${t.backward?-1:1};}`,":root:has(.bespoke-marp-inactive){cursor:none;}"],r=t=>{const n=e[t].both?.defaultDuration||e[t].outgoing?.defaultDuration||e[t].incoming?.defaultDuration;return"forward"===t?n:n||r("forward")},o=t.duration||r(t.backward?"backward":"forward");void 0!==o&&n.push(`::view-transition-group(*){${Ee}:${o};}`);const i=e=>Object.entries(e).map(([e,t])=>`${e}:${t};`).join("");return n.push(`::view-transition-old(root){${i(Pe(e,{...t,type:"outgoing"}))}}`,`::view-transition-new(root){${i(Pe(e,{...t,type:"incoming"}))}}`),n})(r,{backward:l(),duration:u.duration}).forEach(e=>a.sheet?.insertRule(e));const s=document.documentElement.classList;s.add(Ie);let c=!1;const d=()=>{c||(n(i),c=!0,s.remove(Ie))},f=()=>{t(!1),a.remove(),s.remove(Ie)};try{t(!0);const e=document.startViewTransition(d);t(e),e.finished.finally(f)}catch(e){console.error(e),d(),f()}}),!1)};e.on("prev",r(t=>e.prev({...t,[Te]:!0}),{back:!0,cond:e=>e.index>0&&!((e.fragment??1)&&n.fragmentIndex>0)})),e.on("next",r(t=>e.next({...t,[Te]:!0}),{cond:t=>t.index+1<e.slides.length&&!(n.fragmentIndex+1<n.fragments.length)})),setTimeout(()=>{e.on("slide",r(t=>e.slide(t.index,{...t,[Te]:!0}),{cond:t=>{const n=e.slide();return t.index!==n&&(t.back=t.index<n,!0)}}))},0),e.on("fragment",e=>{n=e})};let Be;const Ke=()=>(void 0===Be&&(Be="wakeLock"in navigator&&navigator.wakeLock),Be),qe=async()=>{const e=Ke();if(e)try{return await e.request("screen")}catch(e){console.warn(e)}return null},Ve=async()=>{if(!Ke())return;let e;const t=()=>{e&&"visible"===document.visibilityState&&qe()};for(const e of["visibilitychange","fullscreenchange"])document.addEventListener(e,t);return e=await qe(),e};((e=document.getElementById(":$p"))=>{(()=>{const e=v("view");i.dataset.bespokeView=u.some(t=>t&&t===e)?e:""})();const t=(e=>{const t=v(e);return h({[e]:void 0}),t})("sync")||void 0;o.from(e,((...e)=>{const t=u.findIndex(e=>p()===e);return e.map(([e,n])=>e[t]&&n).filter(e=>e)})([[1,1,1,0],B({key:t})],[[1,1,0,1],se(e)],[[1,1,0,0],M],[[1,1,1,1],E],[[1,0,0,0],T()],[[1,1,1,1],A],[[1,1,1,1],de({history:!1})],[[1,1,0,0],C()],[[1,1,1,0],_],[[1,0,0,0],le],[[1,1,0,0],ve()],[[1,0,0,0],D()],[[1,1,1,0],F()],[[1,0,0,0],Ne],[[1,1,1,1],$],[[1,1,1,0],Ve]))})()}();</script></body></html>
